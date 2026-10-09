@@ -12,7 +12,7 @@ license = { text = "Proprietary" }
 dependencies = [
     "jinja2>=3.1",
     "pydantic>=2.5,<3",
-    "weasyprint>=60",
+    "weasyprint>=62,<70",
     "tzdata; platform_system == 'Windows'",
 ]
 
