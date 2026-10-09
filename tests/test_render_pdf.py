@@ -2,8 +2,8 @@
 
 import pytest
 
-from crif_pdf_engine import render_pdf
-from crif_pdf_engine.cli import main as cli_main
+from crif_pdf_engine_digitap import render_pdf
+from crif_pdf_engine_digitap.cli import main as cli_main
 
 from .conftest import GENERATED_AT, SAMPLE, fixture_path, pdf_text
 

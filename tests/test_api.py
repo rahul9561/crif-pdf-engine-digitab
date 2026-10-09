@@ -5,13 +5,13 @@ from concurrent.futures import ThreadPoolExecutor
 
 import pytest
 
-from crif_pdf_engine import (
+from crif_pdf_engine_digitap import (
     CrifReportError,
     build_context,
     render_html,
     suggested_filename,
 )
-from crif_pdf_engine.mapper import DEFAULT_PERFORM_ATTRIBUTES
+from crif_pdf_engine_digitap.mapper import DEFAULT_PERFORM_ATTRIBUTES
 
 from .conftest import GENERATED_AT, SAMPLE, fixture_path
 

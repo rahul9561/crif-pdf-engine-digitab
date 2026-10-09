@@ -1,6 +1,6 @@
-"""Example Django views for crif-pdf-engine.
+"""Example Django views for crif-pdf-engine-digitap.
 
-Install in your Django project:   pip install "crif-pdf-engine @ git+https://<your-git-host>/crifs-digitab.git"
+Install in your Django project:   pip install "crif-pdf-engine-digitap @ git+https://<your-git-host>/crifs-digitab.git"
 The engine has no Django dependency; this file only shows how to wire it up.
 
     # urls.py
@@ -22,7 +22,7 @@ from django.http import HttpRequest, HttpResponse, HttpResponseBadRequest
 from django.shortcuts import get_object_or_404
 from django.views.decorators.http import require_GET, require_POST
 
-from crif_pdf_engine import CrifReportError, render_pdf, suggested_filename
+from crif_pdf_engine_digitap import CrifReportError, render_pdf, suggested_filename
 
 # from .models import CreditReport   # your model that stores the Digitap JSON response
 

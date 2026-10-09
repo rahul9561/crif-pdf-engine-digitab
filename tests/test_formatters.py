@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 
 import pytest
 
-from crif_pdf_engine import formatters as f
+from crif_pdf_engine_digitap import formatters as f
 
 
 @pytest.mark.parametrize("value, expected", [

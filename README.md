@@ -1,4 +1,4 @@
-# crif-pdf-engine
+# crif-pdf-engine-digitap
 
 Turns a Digitap **CRIF credit report JSON** response into the official-looking CRIF
 **"Credit Information™ Report"** PDF (layout replicated from `samplepdf/sample.pdf`).
@@ -9,7 +9,7 @@ Turns a Digitap **CRIF credit report JSON** response into the official-looking C
 - No Django dependency; thread-safe, no global state → fine for Django views and Celery
 
 ```
-crif_pdf_engine/
+crif_pdf_engine_digitap/
   api.py          render_pdf / render_html / parse_report / suggested_filename
   models.py       Pydantic models of the CRIF "B2C-REPORT" JSON
   mapper.py       JSON → view-model (ALL business rules & section config live here)
@@ -74,10 +74,10 @@ This is harmless noise from GLib.
 pip install -e ".[dev]"
 
 # from git, in another project (e.g. Django) — or pin a tag: ...git@v0.1.0
-pip install "crif-pdf-engine @ git+https://<your-git-host>/crifs-digitab.git"
+pip install "crif-pdf-engine-digitap @ git+https://<your-git-host>/crifs-digitab.git"
 
 # or build a wheel once and copy it around
-pip wheel . --no-deps -w dist/  &&  pip install dist/crif_pdf_engine-0.1.0-py3-none-any.whl
+pip wheel . --no-deps -w dist/  &&  pip install dist/crif_pdf_engine_digitap-0.1.0-py3-none-any.whl
 ```
 
 Requirements: Python 3.10+, `jinja2`, `pydantic>=2`, `weasyprint>=60` (installed automatically).
@@ -93,18 +93,18 @@ crif-pdf report.json --mask-accounts --all-perform-attributes --empty ""
 ```
 
 The exit code is `0` on success and `2` on an invalid or failed report. The error message is printed to stderr.
-`python -m crif_pdf_engine.cli ...` works too.
+`python -m crif_pdf_engine_digitap.cli ...` works too.
 
 ## 3. Python
 
 ```python
-from crif_pdf_engine import render_pdf, render_html, CrifReportError
+from crif_pdf_engine_digitap import render_pdf, render_html, CrifReportError
 
 pdf_bytes = render_pdf(data)                          # data: dict | JSON str | bytes | path (str/Path)
 render_pdf(data, output_path="report.pdf")            # also writes the file (parent dirs created)
 html = render_html(data)                              # for debugging / previews
 
-# options (keyword overrides of crif_pdf_engine.RenderOptions)
+# options (keyword overrides of crif_pdf_engine_digitap.RenderOptions)
 render_pdf(
     data,
     empty="-",                         # placeholder for empty values (default "-")
@@ -147,7 +147,7 @@ See [`examples/django_view.py`](examples/django_view.py):
 
 ```python
 from django.http import HttpResponse
-from crif_pdf_engine import render_pdf, suggested_filename
+from crif_pdf_engine_digitap import render_pdf, suggested_filename
 
 def crif_pdf(request, pk):
     json_data = CreditReport.objects.get(pk=pk).raw_response
@@ -211,3 +211,6 @@ python tests/fixtures/generate_fixtures.py   # regenerate edge-case fixtures fro
   are not rendered, because the reference PDF does not show them.
 - **Lender-type labels** cover the common CRIF codes. An unknown code is printed as-is.
 - **Score "Range"** is always blank, because the JSON does not provide it.
+
+
+<!-- python -m crif-pdf-engine --input input/sample.json --output output/sample.pdf -->

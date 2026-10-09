@@ -20,16 +20,16 @@ dependencies = [
 dev = ["pytest>=7", "pymupdf>=1.23"]
 
 [project.scripts]
-crif-pdf = "crif_pdf_engine.cli:main"
+crif-pdf = "crif_pdf_engine_digitap.cli:main"
 
 [tool.setuptools]
 include-package-data = true
 
 [tool.setuptools.packages.find]
-include = ["crif_pdf_engine*"]
+include = ["crif_pdf_engine_digitap*"]
 
 [tool.setuptools.package-data]
-crif_pdf_engine = [
+crif_pdf_engine_digitap = [
     "templates/*.html",
     "templates/sections/*.html",
     "static/css/*.css",
