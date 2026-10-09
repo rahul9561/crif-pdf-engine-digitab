@@ -1,0 +1,5 @@
+{% from "_macros.html" import bar, kv_grid %}
+<section class="section keep">
+  {{ bar("MFI/Group Account Summary") }}
+  {{ kv_grid(r.mfi_rows) }}
+</section>

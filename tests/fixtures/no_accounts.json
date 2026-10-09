@@ -1,0 +1,567 @@
+{
+ "success": true,
+ "billable": true,
+ "result_code": 101,
+ "message": "CRIF report fetched successfully",
+ "request_id": "475c5cb2-9b23-4135-a34e-c4969b050ac4",
+ "client_ref_num": "4d9475ce-130a-4d0e-869c-cfd560e95a2f",
+ "prefill": {
+  "result_code": 101,
+  "request_id": "0668f263-4bfa-4ab6-a0ea-2170a6cfe674",
+  "billable": true
+ },
+ "data": {
+  "report_json": {
+   "parsed_data": {
+    "B2C-REPORT": {
+     "HEADER-SEGMENT": {
+      "DATE-OF-REQUEST": "06-10-2026",
+      "PREPARED-FOR": "  ",
+      "PREPARED-FOR-ID": "NBF0004149",
+      "DATE-OF-ISSUE": "06-10-2026",
+      "REPORT-ID": "CCR261006CR581766645",
+      "BATCH-ID": "5081512668261006",
+      "STATUS": "SUCCESS",
+      "PRODUCT-TYPE": "BBC CONSUMER SCORE",
+      "PRODUCT-VER": "2.0"
+     },
+     "REQUEST-DATA": {
+      "APPLICANT-SEGMENT": {
+       "FIRST-NAME": "ANAND",
+       "MIDDLE-NAME": "VARDHAN",
+       "LAST-NAME": "GOYAL",
+       "GENDER": "Male",
+       "APPLICANT-ID": "",
+       "DOB": {
+        "DOB-DT": "04-10-1995",
+        "AGE": "",
+        "AGE-AS-ON": ""
+       },
+       "IDS": [
+        {
+         "TYPE": "ID07",
+         "VALUE": "CAZPG3241C"
+        }
+       ],
+       "ADDRESSES": [
+        {
+         "TYPE": "D08",
+         "ADDRESSTEXT": "WARD NO 07 DIRBA DISTT SANGRUR SANGRUR,  SANGRUR SANGRUR (M CL) SANGRUR ",
+         "CITY": "SANGRUR",
+         "LOCALITY": "SANGRUR",
+         "STATE": "PB",
+         "PIN": "148035",
+         "COUNTRY": "India"
+        }
+       ],
+       "PHONES": [
+        {
+         "TYPE": "P01",
+         "VALUE": "9217010023"
+        }
+       ],
+       "EMAILS": [
+        {
+         "EMAIL": "anandvardhan001@gmail.com"
+        }
+       ],
+       "ACCOUNT-NUMBER": ""
+      },
+      "APPLICATION-SEGMENT": {
+       "INQUIRY-UNIQUE-REF-NO": "",
+       "CREDIT-RPT-ID": "",
+       "CREDIT-RPT-TRN-DT-TM": "",
+       "CREDIT-INQ-PURPS-TYPE": "",
+       "CREDIT-INQUIRY-STAGE": "",
+       "CLIENT-CONTRIBUTOR-ID": "",
+       "BRANCH-ID": "",
+       "APPLICATION-ID": "",
+       "ACNT-OPEN-DT": "",
+       "LOAN-AMT": "",
+       "LTV": "",
+       "TERM": "",
+       "LOAN-TYPE": ""
+      }
+     },
+     "REPORT-DATA": {
+      "STANDARD-DATA": {
+       "DEMOGS": {
+        "VARIATIONS": []
+       },
+       "EMPLOYMENT-DETAILS": [],
+       "TRADELINES": [],
+       "INQUIRY-HISTORY": [],
+       "SCORE": [
+        {
+         "NAME": "PERFORM CONSUMER 2.2",
+         "VERSION": "",
+         "VALUE": "800",
+         "DESCRIPTION": "A",
+         "FACTORS": [
+          {
+           "TYPE": "SF03",
+           "DESC": "No/minimal missed payments in recent past"
+          },
+          {
+           "TYPE": "SF11",
+           "DESC": "Normal proportion of outstanding balance to disbursed amount"
+          }
+         ]
+        }
+       ]
+      },
+      "REQUESTED-SERVICES": [],
+      "ACCOUNTS-SUMMARY": {
+       "PRIMARY-ACCOUNTS-SUMMARY": {
+        "NUMBER-OF-ACCOUNTS": "0",
+        "ACTIVE-ACCOUNTS": "0",
+        "OVERDUE-ACCOUNTS": "0",
+        "SECURED-ACCOUNTS": "0",
+        "UNSECURED-ACCOUNTS": "0",
+        "UNTAGGED-ACCOUNTS": "0",
+        "TOTAL-CURRENT-BALANCE": "0",
+        "CURRENT-BALANCE-SECURED": "0",
+        "CURRENT-BALANCE-UNSECURED": "0",
+        "TOTAL-SANCTIONED-AMT": "0",
+        "TOTAL-DISBURSED-AMT": "0",
+        "TOTAL-AMT-OVERDUE": "0"
+       },
+       "SECONDARY-ACCOUNTS-SUMMARY": {
+        "NUMBER-OF-ACCOUNTS": "0",
+        "ACTIVE-ACCOUNTS": "0",
+        "OVERDUE-ACCOUNTS": "0",
+        "SECURED-ACCOUNTS": "0",
+        "UNSECURED-ACCOUNTS": "0",
+        "UNTAGGED-ACCOUNTS": "0",
+        "TOTAL-CURRENT-BALANCE": "0",
+        "TOTAL-SANCTIONED-AMT": "0",
+        "TOTAL-DISBURSED-AMT": "0",
+        "TOTAL-AMT-OVERDUE": "0"
+       },
+       "MFI-GROUP-ACCOUNTS-SUMMARY": {
+        "NUMBER-OF-ACCOUNTS": "0",
+        "ACTIVE-ACCOUNTS": "0",
+        "OVERDUE-ACCOUNTS": "0",
+        "CLOSED-ACCOUNTS": "0",
+        "NO-OF-OTHER-MFIS": "0",
+        "NO-OF-OWN-MFIS": "0",
+        "TOTAL-OWN-CURRENT-BALANCE": "0.0",
+        "TOTAL-OWN-INSTALLMENT-AMT": "0",
+        "TOTAL-OWN-DISBURSED-AMT": "0.0",
+        "TOTAL-OWN-OVERDUE-AMT": "0.0",
+        "TOTAL-OTHER-CURRENT-BALANCE": "0.0",
+        "TOTAL-OTHER-INSTALLMENT-AMT": "0",
+        "TOTAL-OTHER-DISBURSED-AMT": "0.0",
+        "TOTAL-OTHER-OVERDUE-AMT": "0.0",
+        "MAX-WORST-DELINQUENCY": "0"
+       },
+       "ADDITIONAL-SUMMARY": [
+        {
+         "ATTR-NAME": "NUM-GRANTORS",
+         "ATTR-VALUE": "2"
+        },
+        {
+         "ATTR-NAME": "NUM-GRANTORS-ACTIVE",
+         "ATTR-VALUE": "1"
+        },
+        {
+         "ATTR-NAME": "NUM-GRANTORS-DELINQ",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "NUM-GRANTORS-ONLY-PRIMARY",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "NUM-GRANTORS-ONLY-SECONDARY",
+         "ATTR-VALUE": "1"
+        }
+       ],
+       "PERFORM-ATTRIBUTES": [
+        {
+         "ATTR-NAME": "INQUIRIES-IN-LAST-SIX-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "LENGTH-OF-CREDIT-HISTORY-YEAR",
+         "ATTR-VALUE": "3"
+        },
+        {
+         "ATTR-NAME": "LENGTH-OF-CREDIT-HISTORY-MONTH",
+         "ATTR-VALUE": "8"
+        },
+        {
+         "ATTR-NAME": "AVERAGE-ACCOUNT-AGE-YEAR",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "AVERAGE-ACCOUNT-AGE-MONTH",
+         "ATTR-VALUE": "8"
+        },
+        {
+         "ATTR-NAME": "NEW-ACCOUNTS-IN-LAST-SIX-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "NEW-DELINQ-ACCOUNT-IN-LAST-SIX-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "MAX-DELINQ-INCREASE-12-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-DELINQ-INCREASE-12-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "MAX-CC-BALANCE-BUILDUP",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "CD-TRADES WITHIN-6-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "MAX-TIME-OPEN-TRADE",
+         "ATTR-VALUE": "1,373"
+        },
+        {
+         "ATTR-NAME": "TOTAL-TRADES-GOOD-IN-12-MONTHS",
+         "ATTR-VALUE": "10"
+        },
+        {
+         "ATTR-NAME": "TOTAL-OVERDUE-BUILDUP-SECURED-ACTIVE",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "SCORE-TRANCH-FLIP",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SECURED-OUTSTANDING",
+         "ATTR-VALUE": "25,92,764"
+        },
+        {
+         "ATTR-NAME": "TOTAL-UNSECURED-OUTSTANDING",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-LIVE-SECURED-ACCOUNTS",
+         "ATTR-VALUE": "1"
+        },
+        {
+         "ATTR-NAME": "TOTAL-OBLIGATIONS",
+         "ATTR-VALUE": "25,92,764"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SECURED-SANCTION-AMOUNT-OPEN-ACCOUNT",
+         "ATTR-VALUE": "40,00,000"
+        },
+        {
+         "ATTR-NAME": "TOTAL-UNSECURED-SANCTION-AMOUNT-OPEN-ACCOUNT",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-CC-SANCTION-AMOUNT-OPEN-ACCOUNT",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SECURED-SANCTION-AMOUNT-ALL-ACCOUNT",
+         "ATTR-VALUE": "81,98,100"
+        },
+        {
+         "ATTR-NAME": "TOTAL-UNSECURED-SANCTION-AMOUNT-ALL-ACCOUNT",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-CC-OUTSTANDING",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SECURED-OVER-DUE-ACCOUNTS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-UNSECURED-OVER-DUE-ACCOUNTS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-CC-OVER-DUE-ACCOUNTS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SECURED-WORST-DPD-BUCKET-IN-LAST-2-YEARS",
+         "ATTR-VALUE": "000"
+        },
+        {
+         "ATTR-NAME": "TOTAL-UNSECURED-WORST-DPD-BUCKET-IN-LAST-2-YEARS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SECURED-WORST-DPD-BUCKET-IN-LAST-3-YEARS",
+         "ATTR-VALUE": "000"
+        },
+        {
+         "ATTR-NAME": "TOTAL-UNSECURED-WORST-DPD-BUCKET-IN-LAST-3-YEARS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SECURED-WORST-DPD-AMOUNT-IN-LAST-2-YEARS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-UNSECURED-WORST-DPD-AMOUNT-IN-LAST-2-YEARS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-CC-WORST-DPD-AMOUNT-IN-LAST-2-YEARS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SECURED-WORST-DPD-AMOUNT-IN-LAST-3-YEARS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-UNSECURED-WORST-DPD-AMOUNT-IN-LAST-3-YEARS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-CC-WORST-DPD-AMOUNT-IN-LAST-3-YEARS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SUM-OF-ACTIVE-EMI",
+         "ATTR-VALUE": "43,945"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SUM-OF-ACTIVE-SECURED-EMI",
+         "ATTR-VALUE": "43,945"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SUM-OF-ACTIVE-UNSECURED-EMI",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SUM-OF-EMI",
+         "ATTR-VALUE": "75,259"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SUM-OF-SECURED-EMI",
+         "ATTR-VALUE": "75,259"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SUM-OF-UNSECURED-EMI",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "MAX-EMI-AMOUNT-ACTIVE",
+         "ATTR-VALUE": "43,945"
+        },
+        {
+         "ATTR-NAME": " MAX-EMI-AMOUNT",
+         "ATTR-VALUE": "43,945"
+        },
+        {
+         "ATTR-NAME": "MAX-SECURED-EMI-AMOUNT",
+         "ATTR-VALUE": "43,945"
+        },
+        {
+         "ATTR-NAME": "MAX-UNSECURED-EMI-AMOUNT",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "MAX-ACTIVE-ACCOUNT-AGE",
+         "ATTR-VALUE": "1,360"
+        },
+        {
+         "ATTR-NAME": "MIN-ACTIVE-ACCOUNT-AGE",
+         "ATTR-VALUE": "1,360"
+        },
+        {
+         "ATTR-NAME": "MAX-SECURED-ACTIVE-ACCOUNT-AGE",
+         "ATTR-VALUE": "1,360"
+        },
+        {
+         "ATTR-NAME": "MIN-SECURED-ACTIVE-ACCOUNT-AGE",
+         "ATTR-VALUE": "1,360"
+        },
+        {
+         "ATTR-NAME": "MAX-UNSECURED-ACTIVE-ACCOUNT-AGE",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "MIN-UNSECURED-ACTIVE-ACCOUNT-AGE",
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": "TOTAL-NO-OF-SECURED-INQUIRY-IN-LAST-6-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-NO-OF-UNSECURED-INQUIRY-IN-LAST-6-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "NUMBER-OF-LOANS-DELINQUENT-IN-LAST-12-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-NO-OF-INQUIRY-IN-LAST-12-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-NO-OF-SECURED-INQUIRY-IN-LAST-12-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-NO-OF-UNSECURED-INQUIRY-IN-LAST-12-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "NUMBER-OF-LOANS-DELINQUENT-IN-LAST-24-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-NO-OF-INQUIRY-IN-LAST-24-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-NO-OF-SECURED-INQUIRY-IN-LAST-24-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-NO-OF-UNSECURED-INQUIRY-IN-LAST-24-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "MAX-OUTSTANDING-AMOUNT-IN-LAST-3-YEARS",
+         "ATTR-VALUE": "38,60,912"
+        },
+        {
+         "ATTR-NAME": "MAX-SECURED-OUTSTANDING-AMOUNT-IN-LAST-3-YEARS",
+         "ATTR-VALUE": "38,60,912"
+        },
+        {
+         "ATTR-NAME": "MAX-UNSECURED-OUTSTANDING-AMOUNT-IN-LAST-3-YEARS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "OLDEST-OPEN-CC-MON",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "YOUNGEST-OPEN-CC-MON",
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": "TOTAL-CC-SANCTION-AMOUNT-ALL-ACCOUNT",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "NUM-INC-BAL-REVOLVING-TRADES-12M",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "MAX-SPEND-CC-UTIL-6M",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "MAX-TIME-CC-ALL-TRADE",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "ALL-TYPES-TRADES-WRITTEN-OFF",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-CC-WORST-DPD-BUCKET-IN-LAST-2-YEARS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-CC-WORST-DPD-BUCKET-IN-LAST-3-YEARS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-P2P-LOAN-AMOUNT-ACTIVE",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "MAX-P2P-LOAN-AMOUNT-ACTIVE",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-P2P-ACTIVE-ACCOUNTS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-P2P-ACTIVE-GRANTORS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "NUM-ACTIVE-P2P-AGE-GT-36M",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "WORST-P2P-DELINQ-IN-LAST-36-MONTHS",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-P2P-MONTHLY-EMI-AMOUNT",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "TOTAL-P2P-BL-ACTIVE",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "MAX-SANCTION-AMOUNT-ALL-ACCOUNT",
+         "ATTR-VALUE": "40,00,000"
+        },
+        {
+         "ATTR-NAME": "TOTAL-SUM-OF-ASSETS-ACTIVE",
+         "ATTR-VALUE": "1,95,62,210"
+        },
+        {
+         "ATTR-NAME": "CREDIT-LIMIT-TREND-12-MONTHS",
+         "ATTR-VALUE": "8,19,810"
+        },
+        {
+         "ATTR-NAME": "OVERDUE-AMOUNT-TREND",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "AVG-PERCENTAGE-INCREASE-HIGH CREDIT",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "AVG-PERCENTAGE-INCREASE-CB",
+         "ATTR-VALUE": "16"
+        },
+        {
+         "ATTR-NAME": "AVG-PERCENTAGE-INCREASE-DPD",
+         "ATTR-VALUE": "0"
+        },
+        {
+         "ATTR-NAME": "AVG-PERCENTAGE-INCREASE-AO",
+         "ATTR-VALUE": "0"
+        }
+       ]
+      },
+      "TRENDS": {
+       "NAME": "SCORE-HISTORY",
+       "DATES": "30-06-2026|31-03-2026|31-12-2025|30-09-2025|30-06-2025|31-03-2025|31-12-2024|30-09-2024|30-06-2024|31-03-2024|31-12-2023|30-09-2023",
+       "VALUES": "800|774|800|796|796|796|796|796|796|796|796|796",
+       "RESERVED1": "PERFORM CONSUMER V2.2",
+       "RESERVED2": "",
+       "RESERVED3": "",
+       "DESCRIPTION": "|||||||||||"
+      },
+      "ALERTS": []
+     }
+    }
+   }
+  },
+  "report_pdf_url": null
+ }
+}

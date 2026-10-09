@@ -1,0 +1,1142 @@
+{
+  "success": true,
+  "billable": true,
+  "result_code": 101,
+  "message": "CRIF report fetched successfully",
+  "request_id": "6c8fb8ff-be78-4a5f-b178-b371639c15ca",
+  "client_ref_num": "012e4152-ea77-42c6-a0fb-91be0ee7b4af",
+  "prefill": null,
+  "data": {
+    "report_json": {
+      "parsed_data": {
+        "B2C-REPORT": {
+          "HEADER-SEGMENT": {
+            "DATE-OF-REQUEST": "07-10-2026",
+            "PREPARED-FOR": "  ",
+            "PREPARED-FOR-ID": "NBF0004149",
+            "DATE-OF-ISSUE": "07-10-2026",
+            "REPORT-ID": "CCR261007CR584849706",
+            "BATCH-ID": "5084495854261007",
+            "STATUS": "SUCCESS",
+            "PRODUCT-TYPE": "BBC CONSUMER SCORE",
+            "PRODUCT-VER": "2.0"
+          },
+          "REQUEST-DATA": {
+            "APPLICANT-SEGMENT": {
+              "FIRST-NAME": "NABEESHA",
+              "MIDDLE-NAME": "",
+              "LAST-NAME": "A",
+              "GENDER": "Male",
+              "APPLICANT-ID": "",
+              "DOB": {
+                "DOB-DT": "19-09-2001",
+                "AGE": "",
+                "AGE-AS-ON": ""
+              },
+              "IDS": [
+                {
+                  "TYPE": "ID07",
+                  "VALUE": "BZSPN6910J"
+                }
+              ],
+              "ADDRESSES": [
+                {
+                  "TYPE": "D08",
+                  "ADDRESSTEXT": "T4,  112 Sunshine Residency,  Kothrud Pune ",
+                  "CITY": "Pune",
+                  "LOCALITY": "Pune",
+                  "STATE": "MH",
+                  "PIN": "411038",
+                  "COUNTRY": "India"
+                }
+              ],
+              "PHONES": [
+                {
+                  "TYPE": "P01",
+                  "VALUE": "9789846901"
+                }
+              ],
+              "EMAILS": [
+                {
+                  "EMAIL": "pranavchaudhari0119@gmail.com"
+                }
+              ],
+              "ACCOUNT-NUMBER": ""
+            },
+            "APPLICATION-SEGMENT": {
+              "INQUIRY-UNIQUE-REF-NO": "",
+              "CREDIT-RPT-ID": "",
+              "CREDIT-RPT-TRN-DT-TM": "",
+              "CREDIT-INQ-PURPS-TYPE": "",
+              "CREDIT-INQUIRY-STAGE": "",
+              "CLIENT-CONTRIBUTOR-ID": "",
+              "BRANCH-ID": "",
+              "APPLICATION-ID": "",
+              "ACNT-OPEN-DT": "",
+              "LOAN-AMT": "",
+              "LTV": "",
+              "TERM": "",
+              "LOAN-TYPE": ""
+            }
+          },
+          "REPORT-DATA": {
+            "STANDARD-DATA": {
+              "DEMOGS": {
+                "VARIATIONS": [
+                  {
+                    "TYPE": "ADDRESS-VARIATIONS",
+                    "VARIATION": [
+                      {
+                        "VALUE": "NO 3/177A,  1ST FLOOR, GODHAVARI STREET PADMAVATHY NAGAR, JALLADIANPET KANCHIPURAM 600100 TN ",
+                        "REPORTED-DT": "23-07-2026",
+                        "FIRST-REPORTED-DT": "23-07-2026",
+                        "LOAN-TYPE-ASSOC": "Gold Loan",
+                        "SOURCE-INDICATOR": "PRB"
+                      },
+                      {
+                        "VALUE": "NO 3/177A,  1ST FLOOR,  GODHAVARI STREET,  600100 TN ",
+                        "REPORTED-DT": "30-09-2026",
+                        "FIRST-REPORTED-DT": "13-09-2026",
+                        "LOAN-TYPE-ASSOC": "Personal Loan",
+                        "SOURCE-INDICATOR": "NBF"
+                      },
+                      {
+                        "VALUE": "D/O KAREEM NO 3/166 KRISHNA STREET PATHMAVATHY NAGAR MEDAVAKKAM KANCHIPURA 600100 TN ",
+                        "REPORTED-DT": "23-07-2026",
+                        "FIRST-REPORTED-DT": "07-04-2026",
+                        "LOAN-TYPE-ASSOC": "Gold Loan",
+                        "SOURCE-INDICATOR": "PRB"
+                      },
+                      {
+                        "VALUE": "1444, KALAINGER NAGAR 1ST STREET,  MC ROAD,  THANJAVUR THANJAVUR THANJAVUR MANOJIPATTI B.O 613004 TN ",
+                        "REPORTED-DT": "31-10-2023",
+                        "FIRST-REPORTED-DT": "19-02-2022",
+                        "LOAN-TYPE-ASSOC": "Two-Wheeler Loan",
+                        "SOURCE-INDICATOR": "NBF"
+                      }
+                    ]
+                  },
+                  {
+                    "TYPE": "EMAIL-VARIATIONS",
+                    "VARIATION": [
+                      {
+                        "VALUE": "Nabeeshakareem25@gmail.com",
+                        "REPORTED-DT": "31-08-2026",
+                        "FIRST-REPORTED-DT": "07-04-2026",
+                        "LOAN-TYPE-ASSOC": "Gold Loan",
+                        "SOURCE-INDICATOR": "PRB"
+                      }
+                    ]
+                  },
+                  {
+                    "TYPE": "NAME-VARIATIONS",
+                    "VARIATION": [
+                      {
+                        "VALUE": "NABEESHA K",
+                        "REPORTED-DT": "30-09-2026",
+                        "FIRST-REPORTED-DT": "19-02-2022",
+                        "LOAN-TYPE-ASSOC": "Gold Loan,Personal Loan,Two-Wheeler Loan",
+                        "SOURCE-INDICATOR": "PRB,NBF,NBF"
+                      }
+                    ]
+                  },
+                  {
+                    "TYPE": "PHONE-VARIATIONS",
+                    "VARIATION": [
+                      {
+                        "VALUE": "7603870823",
+                        "REPORTED-DT": "31-10-2023",
+                        "FIRST-REPORTED-DT": "19-02-2022",
+                        "LOAN-TYPE-ASSOC": "Two-Wheeler Loan",
+                        "SOURCE-INDICATOR": "NBF"
+                      },
+                      {
+                        "VALUE": "+91(0)9789846901",
+                        "REPORTED-DT": "31-05-2026",
+                        "FIRST-REPORTED-DT": "07-04-2026",
+                        "LOAN-TYPE-ASSOC": "Gold Loan",
+                        "SOURCE-INDICATOR": "PRB"
+                      },
+                      {
+                        "VALUE": "9789846901",
+                        "REPORTED-DT": "30-09-2026",
+                        "FIRST-REPORTED-DT": "13-09-2026",
+                        "LOAN-TYPE-ASSOC": "Personal Loan",
+                        "SOURCE-INDICATOR": "NBF"
+                      },
+                      {
+                        "VALUE": "7339345275",
+                        "REPORTED-DT": "31-10-2023",
+                        "FIRST-REPORTED-DT": "19-02-2022",
+                        "LOAN-TYPE-ASSOC": "Two-Wheeler Loan",
+                        "SOURCE-INDICATOR": "NBF"
+                      },
+                      {
+                        "VALUE": "7397779772",
+                        "REPORTED-DT": "30-09-2026",
+                        "FIRST-REPORTED-DT": "30-09-2026",
+                        "LOAN-TYPE-ASSOC": "Gold Loan",
+                        "SOURCE-INDICATOR": "PRB"
+                      }
+                    ]
+                  },
+                  {
+                    "TYPE": "DOB-VARIATIONS",
+                    "VARIATION": [
+                      {
+                        "VALUE": "25-06-1998",
+                        "REPORTED-DT": "30-09-2026",
+                        "FIRST-REPORTED-DT": "30-09-2026",
+                        "LOAN-TYPE-ASSOC": "Gold Loan",
+                        "SOURCE-INDICATOR": "PRB"
+                      }
+                    ]
+                  },
+                  {
+                    "TYPE": "PAN-VARIATIONS",
+                    "VARIATION": [
+                      {
+                        "VALUE": "BZSPN6910J",
+                        "REPORTED-DT": "31-08-2026",
+                        "FIRST-REPORTED-DT": "07-04-2026",
+                        "LOAN-TYPE-ASSOC": "Gold Loan",
+                        "SOURCE-INDICATOR": "PRB"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "EMPLOYMENT-DETAILS": [
+                {
+                  "EMPLOYMENT-DETAIL": {
+                    "OCCUPATION": "OTHERS",
+                    "FIRST-REPORTED-DT": "31-03-2026",
+                    "LAST-REPORTED-DT": "30-09-2026",
+                    "ACCT-TYPE": "Gold Loan",
+                    "SOURCE-INDICATOR": "PRB"
+                  }
+                },
+                {
+                  "EMPLOYMENT-DETAIL": {
+                    "OCCUPATION": "OTHERS",
+                    "FIRST-REPORTED-DT": "23-07-2026",
+                    "LAST-REPORTED-DT": "30-09-2026",
+                    "ACCT-TYPE": "Gold Loan",
+                    "SOURCE-INDICATOR": "PRB"
+                  }
+                }
+              ],
+              "TRADELINES": [
+                {
+                  "ACCT-NUMBER": "704001550686",
+                  "CREDIT-GRANTOR": "INDUSIND BANK",
+                  "CREDIT-GRANTOR-GROUP": "Category D",
+                  "CREDIT-GRANTOR-TYPE": "PRB",
+                  "ACCT-TYPE": "Gold Loan",
+                  "REPORTED-DT": "30-09-2026",
+                  "OWNERSHIP-TYPE": "Individual",
+                  "ACCOUNT-STATUS": "Active",
+                  "CLOSED-DT": "",
+                  "DISBURSED-AMT": "3,27,289",
+                  "DISBURSED-DT": "07-07-2026",
+                  "INSTALLMENT-AMT": "",
+                  "CREDIT-LIMIT": "",
+                  "CASH-LIMIT": "",
+                  "CURRENT-BAL": "3,27,289",
+                  "INSTALLMENT-FREQUENCY": "Monthly",
+                  "ORIGINAL-TERM": "",
+                  "TERM-TO-MATURITY": 0,
+                  "REPAYMENT-TENURE": "0",
+                  "INTEREST-RATE": "0.0",
+                  "ACTUAL-PAYMENT": "3,161",
+                  "LAST-PAYMENT-DT": "30-09-2026",
+                  "OVERDUE-AMT": "0",
+                  "WRITE-OFF-AMT": "0",
+                  "PRINCIPAL-WRITE-OFF-AMT": "",
+                  "SETTLEMENT-AMT": "",
+                  "OBLIGATION": "4091.1125",
+                  "HISTORY": [
+                    {
+                      "NAME": "COMBINED-PAYMENT-HISTORY",
+                      "DATES": "Sep:2026|Aug:2026|Jul:2026|",
+                      "VALUES": "000/STD|000/STD|000/STD|"
+                    },
+                    {
+                      "NAME": "HIGH-CREDIT-HISTORY",
+                      "DATES": "Sep:2026|Aug:2026|Jul:2026|",
+                      "VALUES": "3,27,289|3,27,289|3,27,289|"
+                    },
+                    {
+                      "NAME": "CURRENT-BALANCE-HISTORY",
+                      "DATES": "Sep:2026|Aug:2026|Jul:2026|",
+                      "VALUES": "3,27,289|3,27,289|3,27,289|"
+                    },
+                    {
+                      "NAME": "AMT-PAID-HISTORY",
+                      "DATES": "Sep:2026|Aug:2026|Jul:2026|",
+                      "VALUES": "3,161|3,266||"
+                    }
+                  ],
+                  "ACCOUNT-REMARKS": "",
+                  "SECURITY-STATUS": "Secured",
+                  "ACCT-IN-DISPUTE": "",
+                  "SUIT-FILED-WILFUL-DEFAULT-STATUS": "No Suit filed",
+                  "WRITTEN-OFF-SETTLED-STATUS": "",
+                  "WRITE-OFF-DT": "",
+                  "SECURITY-DETAILS": [
+                    {
+                      "SECURITY-TYPE": "Gold",
+                      "OWNER-NAME": "",
+                      "SECURITY-VALUATION": "433453",
+                      "DATE-OF-VALUATION": "",
+                      "SECURITY-CHARGE": "",
+                      "PROPERTY-ADDRESS": "",
+                      "AUTOMOBILE-TYPE": "",
+                      "YEAR-OF-MANUFACTURING": "",
+                      "REGISTRATION-NUMBER": "",
+                      "ENGINE-NUMBER": "",
+                      "CHASSIE-NUMBER": ""
+                    },
+                    {
+                      "SECURITY-TYPE": "Gold",
+                      "OWNER-NAME": "",
+                      "SECURITY-VALUATION": "467115",
+                      "DATE-OF-VALUATION": "",
+                      "SECURITY-CHARGE": "",
+                      "PROPERTY-ADDRESS": "",
+                      "AUTOMOBILE-TYPE": "",
+                      "YEAR-OF-MANUFACTURING": "",
+                      "REGISTRATION-NUMBER": "",
+                      "ENGINE-NUMBER": "",
+                      "CHASSIE-NUMBER": ""
+                    },
+                    {
+                      "SECURITY-TYPE": "Gold",
+                      "OWNER-NAME": "",
+                      "SECURITY-VALUATION": "444044",
+                      "DATE-OF-VALUATION": "",
+                      "SECURITY-CHARGE": "",
+                      "PROPERTY-ADDRESS": "",
+                      "AUTOMOBILE-TYPE": "",
+                      "YEAR-OF-MANUFACTURING": "",
+                      "REGISTRATION-NUMBER": "",
+                      "ENGINE-NUMBER": "",
+                      "CHASSIE-NUMBER": ""
+                    }
+                  ],
+                  "LINKED-ACCOUNTS": [],
+                  "SUIT-FILED-DT": "",
+                  "LAST-PAID-AMOUNT": "3,161",
+                  "OCCUPATION": "Others",
+                  "INCOME-FREQUENCY": "",
+                  "INCOME-AMOUNT": ""
+                },
+                {
+                  "ACCT-NUMBER": "F2B593C63B6F2F4E89011EC6F",
+                  "CREDIT-GRANTOR": "BRANCH INTERNATIONAL FINANCIAL SERVICES PVT LTD",
+                  "CREDIT-GRANTOR-GROUP": "Category D",
+                  "CREDIT-GRANTOR-TYPE": "NBF",
+                  "ACCT-TYPE": "Short Term Personal Loan",
+                  "REPORTED-DT": "30-09-2026",
+                  "OWNERSHIP-TYPE": "Individual",
+                  "ACCOUNT-STATUS": "Active",
+                  "CLOSED-DT": "",
+                  "DISBURSED-AMT": "20,000",
+                  "DISBURSED-DT": "02-09-2026",
+                  "INSTALLMENT-AMT": "2,844/Monthly",
+                  "CREDIT-LIMIT": "",
+                  "CASH-LIMIT": "",
+                  "CURRENT-BAL": "20,000",
+                  "INSTALLMENT-FREQUENCY": "Monthly",
+                  "ORIGINAL-TERM": "",
+                  "TERM-TO-MATURITY": 0,
+                  "REPAYMENT-TENURE": "8",
+                  "INTEREST-RATE": "0.0",
+                  "ACTUAL-PAYMENT": "",
+                  "LAST-PAYMENT-DT": "",
+                  "OVERDUE-AMT": "0",
+                  "WRITE-OFF-AMT": "0",
+                  "PRINCIPAL-WRITE-OFF-AMT": "",
+                  "SETTLEMENT-AMT": "",
+                  "OBLIGATION": "",
+                  "HISTORY": [
+                    {
+                      "NAME": "COMBINED-PAYMENT-HISTORY",
+                      "DATES": "Sep:2026|",
+                      "VALUES": "000/XXX|"
+                    },
+                    {
+                      "NAME": "HIGH-CREDIT-HISTORY",
+                      "DATES": "Sep:2026|",
+                      "VALUES": "20,000|"
+                    },
+                    {
+                      "NAME": "CURRENT-BALANCE-HISTORY",
+                      "DATES": "Sep:2026|",
+                      "VALUES": "20,000|"
+                    },
+                    {
+                      "NAME": "AMT-PAID-HISTORY",
+                      "DATES": "Sep:2026|",
+                      "VALUES": "|"
+                    }
+                  ],
+                  "ACCOUNT-REMARKS": "",
+                  "SECURITY-STATUS": "Un-Secured",
+                  "ACCT-IN-DISPUTE": "",
+                  "SUIT-FILED-WILFUL-DEFAULT-STATUS": "",
+                  "WRITTEN-OFF-SETTLED-STATUS": "",
+                  "WRITE-OFF-DT": "",
+                  "SECURITY-DETAILS": [
+                    {
+                      "SECURITY-TYPE": "No Collateral",
+                      "OWNER-NAME": "",
+                      "SECURITY-VALUATION": "",
+                      "DATE-OF-VALUATION": "",
+                      "SECURITY-CHARGE": "",
+                      "PROPERTY-ADDRESS": "",
+                      "AUTOMOBILE-TYPE": "",
+                      "YEAR-OF-MANUFACTURING": "",
+                      "REGISTRATION-NUMBER": "",
+                      "ENGINE-NUMBER": "",
+                      "CHASSIE-NUMBER": ""
+                    }
+                  ],
+                  "LINKED-ACCOUNTS": [],
+                  "SUIT-FILED-DT": "",
+                  "LAST-PAID-AMOUNT": "",
+                  "OCCUPATION": "",
+                  "INCOME-FREQUENCY": "",
+                  "INCOME-AMOUNT": ""
+                },
+                {
+                  "ACCT-NUMBER": "TN3008TW0099714",
+                  "CREDIT-GRANTOR": "TVS CREDIT SERVICES LIMITED",
+                  "CREDIT-GRANTOR-GROUP": "Category D",
+                  "CREDIT-GRANTOR-TYPE": "NBF",
+                  "ACCT-TYPE": "Two-Wheeler Loan",
+                  "REPORTED-DT": "31-10-2023",
+                  "OWNERSHIP-TYPE": "Individual",
+                  "ACCOUNT-STATUS": "Closed",
+                  "CLOSED-DT": "18-11-2022",
+                  "DISBURSED-AMT": "1,03,999",
+                  "DISBURSED-DT": "27-01-2022",
+                  "INSTALLMENT-AMT": "4,330/Monthly",
+                  "CREDIT-LIMIT": "",
+                  "CASH-LIMIT": "",
+                  "CURRENT-BAL": "0",
+                  "INSTALLMENT-FREQUENCY": "Monthly",
+                  "ORIGINAL-TERM": "",
+                  "TERM-TO-MATURITY": 0,
+                  "REPAYMENT-TENURE": "36",
+                  "INTEREST-RATE": "17.0",
+                  "ACTUAL-PAYMENT": "",
+                  "LAST-PAYMENT-DT": "18-11-2022",
+                  "OVERDUE-AMT": "0",
+                  "WRITE-OFF-AMT": "43,460",
+                  "PRINCIPAL-WRITE-OFF-AMT": "43,460",
+                  "SETTLEMENT-AMT": "",
+                  "OBLIGATION": "",
+                  "HISTORY": [
+                    {
+                      "NAME": "COMBINED-PAYMENT-HISTORY",
+                      "DATES": "Nov:2022|Oct:2022|Sep:2022|Aug:2022|Jul:2022|Jun:2022|May:2022|Apr:2022|Mar:2022|Feb:2022|Jan:2022|",
+                      "VALUES": "013/XXX|058/XXX|027/XXX|028/XXX|000/XXX|000/XXX|000/XXX|000/XXX|000/XXX|000/XXX|000/XXX|"
+                    },
+                    {
+                      "NAME": "HIGH-CREDIT-HISTORY",
+                      "DATES": "Nov:2022|Oct:2022|Sep:2022|Aug:2022|Jul:2022|Jun:2022|May:2022|Apr:2022|Mar:2022|Feb:2022|Jan:2022|",
+                      "VALUES": "1,03,999|1,03,999|1,03,999|1,03,999|1,03,999|1,03,999|1,03,999|1,03,999|1,03,999|1,03,999|1,03,999|"
+                    },
+                    {
+                      "NAME": "CURRENT-BALANCE-HISTORY",
+                      "DATES": "Nov:2022|Oct:2022|Sep:2022|Aug:2022|Jul:2022|Jun:2022|May:2022|Apr:2022|Mar:2022|Feb:2022|Jan:2022|",
+                      "VALUES": "43,460|96,374|94,236|96,347|94,108|96,271|98,266|1,00,235|1,02,139|1,03,999|1,03,999|"
+                    },
+                    {
+                      "NAME": "AMT-PAID-HISTORY",
+                      "DATES": "Nov:2022|Oct:2022|Sep:2022|Aug:2022|Jul:2022|Jun:2022|May:2022|Apr:2022|Mar:2022|Feb:2022|Jan:2022|",
+                      "VALUES": "|||||||||||"
+                    }
+                  ],
+                  "ACCOUNT-REMARKS": "",
+                  "SECURITY-STATUS": "Secured",
+                  "ACCT-IN-DISPUTE": "",
+                  "SUIT-FILED-WILFUL-DEFAULT-STATUS": "Suit filed",
+                  "WRITTEN-OFF-SETTLED-STATUS": "Settled",
+                  "WRITE-OFF-DT": "",
+                  "SECURITY-DETAILS": [
+                    {
+                      "SECURITY-TYPE": "",
+                      "OWNER-NAME": "",
+                      "SECURITY-VALUATION": "",
+                      "DATE-OF-VALUATION": "",
+                      "SECURITY-CHARGE": "",
+                      "PROPERTY-ADDRESS": "",
+                      "AUTOMOBILE-TYPE": "",
+                      "YEAR-OF-MANUFACTURING": "",
+                      "REGISTRATION-NUMBER": "",
+                      "ENGINE-NUMBER": "",
+                      "CHASSIE-NUMBER": ""
+                    }
+                  ],
+                  "LINKED-ACCOUNTS": [],
+                  "SUIT-FILED-DT": "",
+                  "LAST-PAID-AMOUNT": "",
+                  "OCCUPATION": "",
+                  "INCOME-FREQUENCY": "Annual",
+                  "INCOME-AMOUNT": "20,000"
+                },
+                {
+                  "ACCT-NUMBER": "704001488590",
+                  "CREDIT-GRANTOR": "INDUSIND BANK",
+                  "CREDIT-GRANTOR-GROUP": "Category D",
+                  "CREDIT-GRANTOR-TYPE": "PRB",
+                  "ACCT-TYPE": "Gold Loan",
+                  "REPORTED-DT": "30-09-2026",
+                  "OWNERSHIP-TYPE": "Individual",
+                  "ACCOUNT-STATUS": "Active",
+                  "CLOSED-DT": "",
+                  "DISBURSED-AMT": "5,35,475",
+                  "DISBURSED-DT": "26-03-2026",
+                  "INSTALLMENT-AMT": "",
+                  "CREDIT-LIMIT": "",
+                  "CASH-LIMIT": "",
+                  "CURRENT-BAL": "5,35,475",
+                  "INSTALLMENT-FREQUENCY": "Monthly",
+                  "ORIGINAL-TERM": "",
+                  "TERM-TO-MATURITY": 0,
+                  "REPAYMENT-TENURE": "0",
+                  "INTEREST-RATE": "0.0",
+                  "ACTUAL-PAYMENT": "4,753",
+                  "LAST-PAYMENT-DT": "30-09-2026",
+                  "OVERDUE-AMT": "0",
+                  "WRITE-OFF-AMT": "0",
+                  "PRINCIPAL-WRITE-OFF-AMT": "",
+                  "SETTLEMENT-AMT": "",
+                  "OBLIGATION": "6693.4375",
+                  "HISTORY": [
+                    {
+                      "NAME": "COMBINED-PAYMENT-HISTORY",
+                      "DATES": "Sep:2026|Aug:2026|Jul:2026|Jun:2026|May:2026|Apr:2026|Mar:2026|",
+                      "VALUES": "000/STD|000/STD|000/STD|XXX/XXX|000/STD|000/STD|000/STD|"
+                    },
+                    {
+                      "NAME": "HIGH-CREDIT-HISTORY",
+                      "DATES": "Sep:2026|Aug:2026|Jul:2026|Jun:2026|May:2026|Apr:2026|Mar:2026|",
+                      "VALUES": "5,35,475|5,35,475|5,35,475||5,35,475|5,35,475|5,35,475|"
+                    },
+                    {
+                      "NAME": "CURRENT-BALANCE-HISTORY",
+                      "DATES": "Sep:2026|Aug:2026|Jul:2026|Jun:2026|May:2026|Apr:2026|Mar:2026|",
+                      "VALUES": "5,35,475|5,35,475|5,35,475||5,35,475|5,35,475|5,35,475|"
+                    },
+                    {
+                      "NAME": "AMT-PAID-HISTORY",
+                      "DATES": "Sep:2026|Aug:2026|Jul:2026|Jun:2026|May:2026|Apr:2026|Mar:2026|",
+                      "VALUES": "4,753|4,912|4,753||4,912|4,753|792|"
+                    }
+                  ],
+                  "ACCOUNT-REMARKS": "",
+                  "SECURITY-STATUS": "Secured",
+                  "ACCT-IN-DISPUTE": "",
+                  "SUIT-FILED-WILFUL-DEFAULT-STATUS": "No Suit filed",
+                  "WRITTEN-OFF-SETTLED-STATUS": "",
+                  "WRITE-OFF-DT": "",
+                  "SECURITY-DETAILS": [
+                    {
+                      "SECURITY-TYPE": "Gold",
+                      "OWNER-NAME": "",
+                      "SECURITY-VALUATION": "764061",
+                      "DATE-OF-VALUATION": "",
+                      "SECURITY-CHARGE": "",
+                      "PROPERTY-ADDRESS": "",
+                      "AUTOMOBILE-TYPE": "",
+                      "YEAR-OF-MANUFACTURING": "",
+                      "REGISTRATION-NUMBER": "",
+                      "ENGINE-NUMBER": "",
+                      "CHASSIE-NUMBER": ""
+                    },
+                    {
+                      "SECURITY-TYPE": "Gold",
+                      "OWNER-NAME": "",
+                      "SECURITY-VALUATION": "723407",
+                      "DATE-OF-VALUATION": "",
+                      "SECURITY-CHARGE": "",
+                      "PROPERTY-ADDRESS": "",
+                      "AUTOMOBILE-TYPE": "",
+                      "YEAR-OF-MANUFACTURING": "",
+                      "REGISTRATION-NUMBER": "",
+                      "ENGINE-NUMBER": "",
+                      "CHASSIE-NUMBER": ""
+                    },
+                    {
+                      "SECURITY-TYPE": "Gold",
+                      "OWNER-NAME": "",
+                      "SECURITY-VALUATION": "734112",
+                      "DATE-OF-VALUATION": "",
+                      "SECURITY-CHARGE": "",
+                      "PROPERTY-ADDRESS": "",
+                      "AUTOMOBILE-TYPE": "",
+                      "YEAR-OF-MANUFACTURING": "",
+                      "REGISTRATION-NUMBER": "",
+                      "ENGINE-NUMBER": "",
+                      "CHASSIE-NUMBER": ""
+                    },
+                    {
+                      "SECURITY-TYPE": "Gold",
+                      "OWNER-NAME": "",
+                      "SECURITY-VALUATION": "721757",
+                      "DATE-OF-VALUATION": "",
+                      "SECURITY-CHARGE": "",
+                      "PROPERTY-ADDRESS": "",
+                      "AUTOMOBILE-TYPE": "",
+                      "YEAR-OF-MANUFACTURING": "",
+                      "REGISTRATION-NUMBER": "",
+                      "ENGINE-NUMBER": "",
+                      "CHASSIE-NUMBER": ""
+                    },
+                    {
+                      "SECURITY-TYPE": "Gold",
+                      "OWNER-NAME": "",
+                      "SECURITY-VALUATION": "709465",
+                      "DATE-OF-VALUATION": "",
+                      "SECURITY-CHARGE": "",
+                      "PROPERTY-ADDRESS": "",
+                      "AUTOMOBILE-TYPE": "",
+                      "YEAR-OF-MANUFACTURING": "",
+                      "REGISTRATION-NUMBER": "",
+                      "ENGINE-NUMBER": "",
+                      "CHASSIE-NUMBER": ""
+                    },
+                    {
+                      "SECURITY-TYPE": "Gold",
+                      "OWNER-NAME": "",
+                      "SECURITY-VALUATION": "737160",
+                      "DATE-OF-VALUATION": "",
+                      "SECURITY-CHARGE": "",
+                      "PROPERTY-ADDRESS": "",
+                      "AUTOMOBILE-TYPE": "",
+                      "YEAR-OF-MANUFACTURING": "",
+                      "REGISTRATION-NUMBER": "",
+                      "ENGINE-NUMBER": "",
+                      "CHASSIE-NUMBER": ""
+                    },
+                    {
+                      "SECURITY-TYPE": "Gold",
+                      "OWNER-NAME": "",
+                      "SECURITY-VALUATION": "772592",
+                      "DATE-OF-VALUATION": "",
+                      "SECURITY-CHARGE": "",
+                      "PROPERTY-ADDRESS": "",
+                      "AUTOMOBILE-TYPE": "",
+                      "YEAR-OF-MANUFACTURING": "",
+                      "REGISTRATION-NUMBER": "",
+                      "ENGINE-NUMBER": "",
+                      "CHASSIE-NUMBER": ""
+                    },
+                    {
+                      "SECURITY-TYPE": "Gold",
+                      "OWNER-NAME": "",
+                      "SECURITY-VALUATION": "760994",
+                      "DATE-OF-VALUATION": "",
+                      "SECURITY-CHARGE": "",
+                      "PROPERTY-ADDRESS": "",
+                      "AUTOMOBILE-TYPE": "",
+                      "YEAR-OF-MANUFACTURING": "",
+                      "REGISTRATION-NUMBER": "",
+                      "ENGINE-NUMBER": "",
+                      "CHASSIE-NUMBER": ""
+                    }
+                  ],
+                  "LINKED-ACCOUNTS": [],
+                  "SUIT-FILED-DT": "",
+                  "LAST-PAID-AMOUNT": "4,753",
+                  "OCCUPATION": "Others",
+                  "INCOME-FREQUENCY": "",
+                  "INCOME-AMOUNT": ""
+                }
+              ],
+              "INQUIRY-HISTORY": [],
+              "SCORE": [
+                {
+                  "NAME": "PERFORM CONSUMER 2.2",
+                  "VERSION": "",
+                  "VALUE": "740",
+                  "DESCRIPTION": "E",
+                  "FACTORS": [
+                    {
+                      "TYPE": "SF01",
+                      "DESC": "No/minimal recent missed payments"
+                    },
+                    {
+                      "TYPE": "SF11",
+                      "DESC": "Normal proportion of outstanding balance to disbursed amount"
+                    },
+                    {
+                      "TYPE": "SF22",
+                      "DESC": "Relatively low credit age of open contracts"
+                    },
+                    {
+                      "TYPE": "SF33",
+                      "DESC": "Decent number of self/overall loans disbursed in the recent past"
+                    }
+                  ]
+                }
+              ]
+            },
+            "REQUESTED-SERVICES": [],
+            "ACCOUNTS-SUMMARY": {
+              "PRIMARY-ACCOUNTS-SUMMARY": {
+                "NUMBER-OF-ACCOUNTS": "4",
+                "ACTIVE-ACCOUNTS": "3",
+                "OVERDUE-ACCOUNTS": "0",
+                "SECURED-ACCOUNTS": "3",
+                "UNSECURED-ACCOUNTS": "1",
+                "UNTAGGED-ACCOUNTS": "0",
+                "TOTAL-CURRENT-BALANCE": "0.0",
+                "CURRENT-BALANCE-SECURED": "862764.0",
+                "CURRENT-BALANCE-UNSECURED": "20000.0",
+                "TOTAL-SANCTIONED-AMT": "0.0",
+                "TOTAL-DISBURSED-AMT": "0.0",
+                "TOTAL-AMT-OVERDUE": "0"
+              },
+              "SECONDARY-ACCOUNTS-SUMMARY": {
+                "NUMBER-OF-ACCOUNTS": "0",
+                "ACTIVE-ACCOUNTS": "0",
+                "OVERDUE-ACCOUNTS": "0",
+                "SECURED-ACCOUNTS": "0.0",
+                "UNSECURED-ACCOUNTS": "0",
+                "UNTAGGED-ACCOUNTS": "0",
+                "TOTAL-CURRENT-BALANCE": "0.0",
+                "TOTAL-SANCTIONED-AMT": "0.0",
+                "TOTAL-DISBURSED-AMT": "0.0",
+                "TOTAL-AMT-OVERDUE": "0"
+              },
+              "MFI-GROUP-ACCOUNTS-SUMMARY": {
+                "NUMBER-OF-ACCOUNTS": "0",
+                "ACTIVE-ACCOUNTS": "0",
+                "OVERDUE-ACCOUNTS": "0",
+                "CLOSED-ACCOUNTS": "0",
+                "NO-OF-OTHER-MFIS": "0",
+                "NO-OF-OWN-MFIS": "0",
+                "TOTAL-OWN-CURRENT-BALANCE": "0.0",
+                "TOTAL-OWN-INSTALLMENT-AMT": "0",
+                "TOTAL-OWN-DISBURSED-AMT": "0.0",
+                "TOTAL-OWN-OVERDUE-AMT": "0.0",
+                "TOTAL-OTHER-CURRENT-BALANCE": "0.0",
+                "TOTAL-OTHER-INSTALLMENT-AMT": "0",
+                "TOTAL-OTHER-DISBURSED-AMT": "0.0",
+                "TOTAL-OTHER-OVERDUE-AMT": "0.0",
+                "MAX-WORST-DELINQUENCY": "0"
+              },
+              "ADDITIONAL-SUMMARY": [
+                {
+                  "ATTR-NAME": "NUM-GRANTORS",
+                  "ATTR-VALUE": "3"
+                },
+                {
+                  "ATTR-NAME": "NUM-GRANTORS-ACTIVE",
+                  "ATTR-VALUE": "2"
+                },
+                {
+                  "ATTR-NAME": "NUM-GRANTORS-DELINQ",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "NUM-GRANTORS-ONLY-PRIMARY",
+                  "ATTR-VALUE": "2"
+                },
+                {
+                  "ATTR-NAME": "NUM-GRANTORS-ONLY-SECONDARY",
+                  "ATTR-VALUE": "0"
+                }
+              ],
+              "PERFORM-ATTRIBUTES": [
+                {
+                  "ATTR-NAME": "INQUIRIES-IN-LAST-SIX-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "LENGTH-OF-CREDIT-HISTORY-YEAR",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "LENGTH-OF-CREDIT-HISTORY-MONTH",
+                  "ATTR-VALUE": "10"
+                },
+                {
+                  "ATTR-NAME": "AVERAGE-ACCOUNT-AGE-YEAR",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "AVERAGE-ACCOUNT-AGE-MONTH",
+                  "ATTR-VALUE": "4"
+                },
+                {
+                  "ATTR-NAME": "NEW-ACCOUNTS-IN-LAST-SIX-MONTHS",
+                  "ATTR-VALUE": "2"
+                },
+                {
+                  "ATTR-NAME": "NEW-DELINQ-ACCOUNT-IN-LAST-SIX-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "MAX-DELINQ-INCREASE-12-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-DELINQ-INCREASE-12-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "MAX-CC-BALANCE-BUILDUP",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "CD-TRADES WITHIN-6-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "MAX-TIME-OPEN-TRADE",
+                  "ATTR-VALUE": "195"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-TRADES-GOOD-IN-12-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-OVERDUE-BUILDUP-SECURED-ACTIVE",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "SCORE-TRANCH-FLIP",
+                  "ATTR-VALUE": ""
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SECURED-OUTSTANDING",
+                  "ATTR-VALUE": "8,62,764"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-UNSECURED-OUTSTANDING",
+                  "ATTR-VALUE": "20,000"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-LIVE-SECURED-ACCOUNTS",
+                  "ATTR-VALUE": "2"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-OBLIGATIONS",
+                  "ATTR-VALUE": "8,82,764"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SECURED-SANCTION-AMOUNT-OPEN-ACCOUNT",
+                  "ATTR-VALUE": "8,62,764"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-UNSECURED-SANCTION-AMOUNT-OPEN-ACCOUNT",
+                  "ATTR-VALUE": "20,000"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-CC-SANCTION-AMOUNT-OPEN-ACCOUNT",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SECURED-SANCTION-AMOUNT-ALL-ACCOUNT",
+                  "ATTR-VALUE": "9,66,763"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-UNSECURED-SANCTION-AMOUNT-ALL-ACCOUNT",
+                  "ATTR-VALUE": "20,000"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-CC-OUTSTANDING",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SECURED-OVER-DUE-ACCOUNTS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-UNSECURED-OVER-DUE-ACCOUNTS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-CC-OVER-DUE-ACCOUNTS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SECURED-WORST-DPD-BUCKET-IN-LAST-2-YEARS",
+                  "ATTR-VALUE": "058"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-UNSECURED-WORST-DPD-BUCKET-IN-LAST-2-YEARS",
+                  "ATTR-VALUE": "000"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SECURED-WORST-DPD-BUCKET-IN-LAST-3-YEARS",
+                  "ATTR-VALUE": "058"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-UNSECURED-WORST-DPD-BUCKET-IN-LAST-3-YEARS",
+                  "ATTR-VALUE": "000"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SECURED-WORST-DPD-AMOUNT-IN-LAST-2-YEARS",
+                  "ATTR-VALUE": "96,374"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-UNSECURED-WORST-DPD-AMOUNT-IN-LAST-2-YEARS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-CC-WORST-DPD-AMOUNT-IN-LAST-2-YEARS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SECURED-WORST-DPD-AMOUNT-IN-LAST-3-YEARS",
+                  "ATTR-VALUE": "96,374"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-UNSECURED-WORST-DPD-AMOUNT-IN-LAST-3-YEARS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-CC-WORST-DPD-AMOUNT-IN-LAST-3-YEARS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SUM-OF-ACTIVE-EMI",
+                  "ATTR-VALUE": "2,844"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SUM-OF-ACTIVE-SECURED-EMI",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SUM-OF-ACTIVE-UNSECURED-EMI",
+                  "ATTR-VALUE": "2,844"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SUM-OF-EMI",
+                  "ATTR-VALUE": "7,174"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SUM-OF-SECURED-EMI",
+                  "ATTR-VALUE": "4,330"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SUM-OF-UNSECURED-EMI",
+                  "ATTR-VALUE": "2,844"
+                },
+                {
+                  "ATTR-NAME": "MAX-EMI-AMOUNT-ACTIVE",
+                  "ATTR-VALUE": "2,844"
+                },
+                {
+                  "ATTR-NAME": " MAX-EMI-AMOUNT",
+                  "ATTR-VALUE": "4,330"
+                },
+                {
+                  "ATTR-NAME": "MAX-SECURED-EMI-AMOUNT",
+                  "ATTR-VALUE": "4,330"
+                },
+                {
+                  "ATTR-NAME": "MAX-UNSECURED-EMI-AMOUNT",
+                  "ATTR-VALUE": "2,844"
+                },
+                {
+                  "ATTR-NAME": "MAX-ACTIVE-ACCOUNT-AGE",
+                  "ATTR-VALUE": "188"
+                },
+                {
+                  "ATTR-NAME": "MIN-ACTIVE-ACCOUNT-AGE",
+                  "ATTR-VALUE": "28"
+                },
+                {
+                  "ATTR-NAME": "MAX-SECURED-ACTIVE-ACCOUNT-AGE",
+                  "ATTR-VALUE": "188"
+                },
+                {
+                  "ATTR-NAME": "MIN-SECURED-ACTIVE-ACCOUNT-AGE",
+                  "ATTR-VALUE": "85"
+                },
+                {
+                  "ATTR-NAME": "MAX-UNSECURED-ACTIVE-ACCOUNT-AGE",
+                  "ATTR-VALUE": "28"
+                },
+                {
+                  "ATTR-NAME": "MIN-UNSECURED-ACTIVE-ACCOUNT-AGE",
+                  "ATTR-VALUE": "28"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-NO-OF-SECURED-INQUIRY-IN-LAST-6-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-NO-OF-UNSECURED-INQUIRY-IN-LAST-6-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "NUMBER-OF-LOANS-DELINQUENT-IN-LAST-12-MONTHS",
+                  "ATTR-VALUE": "1"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-NO-OF-INQUIRY-IN-LAST-12-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-NO-OF-SECURED-INQUIRY-IN-LAST-12-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-NO-OF-UNSECURED-INQUIRY-IN-LAST-12-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "NUMBER-OF-LOANS-DELINQUENT-IN-LAST-24-MONTHS",
+                  "ATTR-VALUE": "1"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-NO-OF-INQUIRY-IN-LAST-24-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-NO-OF-SECURED-INQUIRY-IN-LAST-24-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-NO-OF-UNSECURED-INQUIRY-IN-LAST-24-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "MAX-OUTSTANDING-AMOUNT-IN-LAST-3-YEARS",
+                  "ATTR-VALUE": "5,35,475"
+                },
+                {
+                  "ATTR-NAME": "MAX-SECURED-OUTSTANDING-AMOUNT-IN-LAST-3-YEARS",
+                  "ATTR-VALUE": "5,35,475"
+                },
+                {
+                  "ATTR-NAME": "MAX-UNSECURED-OUTSTANDING-AMOUNT-IN-LAST-3-YEARS",
+                  "ATTR-VALUE": "20,000"
+                },
+                {
+                  "ATTR-NAME": "OLDEST-OPEN-CC-MON",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "YOUNGEST-OPEN-CC-MON",
+                  "ATTR-VALUE": ""
+                },
+                {
+                  "ATTR-NAME": "TOTAL-CC-SANCTION-AMOUNT-ALL-ACCOUNT",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "NUM-INC-BAL-REVOLVING-TRADES-12M",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "MAX-SPEND-CC-UTIL-6M",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "MAX-TIME-CC-ALL-TRADE",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "ALL-TYPES-TRADES-WRITTEN-OFF",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-CC-WORST-DPD-BUCKET-IN-LAST-2-YEARS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-CC-WORST-DPD-BUCKET-IN-LAST-3-YEARS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-P2P-LOAN-AMOUNT-ACTIVE",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "MAX-P2P-LOAN-AMOUNT-ACTIVE",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-P2P-ACTIVE-ACCOUNTS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-P2P-ACTIVE-GRANTORS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "NUM-ACTIVE-P2P-AGE-GT-36M",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "WORST-P2P-DELINQ-IN-LAST-36-MONTHS",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-P2P-MONTHLY-EMI-AMOUNT",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-P2P-BL-ACTIVE",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "MAX-SANCTION-AMOUNT-ALL-ACCOUNT",
+                  "ATTR-VALUE": "5,35,475"
+                },
+                {
+                  "ATTR-NAME": "TOTAL-SUM-OF-ASSETS-ACTIVE",
+                  "ATTR-VALUE": "70,70,851"
+                },
+                {
+                  "ATTR-NAME": "CREDIT-LIMIT-TREND-12-MONTHS",
+                  "ATTR-VALUE": "2,27,567"
+                },
+                {
+                  "ATTR-NAME": "OVERDUE-AMOUNT-TREND",
+                  "ATTR-VALUE": "1,373"
+                },
+                {
+                  "ATTR-NAME": "AVG-PERCENTAGE-INCREASE-HIGH CREDIT",
+                  "ATTR-VALUE": "0"
+                },
+                {
+                  "ATTR-NAME": "AVG-PERCENTAGE-INCREASE-CB",
+                  "ATTR-VALUE": "19"
+                },
+                {
+                  "ATTR-NAME": "AVG-PERCENTAGE-INCREASE-DPD",
+                  "ATTR-VALUE": "14"
+                },
+                {
+                  "ATTR-NAME": "AVG-PERCENTAGE-INCREASE-AO",
+                  "ATTR-VALUE": "4"
+                }
+              ]
+            },
+            "TRENDS": {
+              "NAME": "SCORE-HISTORY",
+              "DATES": "30-06-2026|31-03-2026|31-12-2025|30-09-2025|30-06-2025|31-03-2025|31-12-2024|30-09-2024|30-06-2024|31-03-2024|31-12-2023|30-09-2023",
+              "VALUES": "730|15|18|608|608|608|608|608|600|600|600|600",
+              "RESERVED1": "PERFORM CONSUMER V2.2",
+              "RESERVED2": "",
+              "RESERVED3": "",
+              "DESCRIPTION": "|Not Scored: Sufficient History Not Available|Not Scored: No Updates available in last 36 months|||||||||"
+            },
+            "ALERTS": []
+          }
+        }
+      }
+    },
+    "report_pdf_url": null
+  }
+}

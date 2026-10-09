@@ -1,0 +1,23 @@
+{% from "_macros.html" import bar %}
+<section class="section keep">
+  {{ bar("CRIF HM Score(S)") }}
+  <table class="grid w-score">
+    <colgroup><col><col><col><col><col></colgroup>
+    <thead>
+      <tr><th>Score Name</th><th>Range</th><th>Score</th><th>Grade</th><th>Scoring Factors (Up to 4 only)</th></tr>
+    </thead>
+    <tbody>
+    {% for s in r.scores %}
+      <tr>
+        <td>{{ s.name }}</td>
+        <td>{{ s.range }}</td>
+        <td>{{ s.value }}</td>
+        <td>{{ s.grade }}</td>
+        <td>{% for f in s.factors %}{{ f }}{% if not loop.last %}<br>{% endif %}{% endfor %}</td>
+      </tr>
+    {% else %}
+      <tr><td class="empty-row" colspan="5">No records found</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</section>

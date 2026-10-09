@@ -1,0 +1,1393 @@
+{
+ "success": true,
+ "billable": true,
+ "result_code": 101,
+ "message": "CRIF report fetched successfully",
+ "request_id": "475c5cb2-9b23-4135-a34e-c4969b050ac4",
+ "client_ref_num": "4d9475ce-130a-4d0e-869c-cfd560e95a2f",
+ "prefill": {
+  "result_code": 101,
+  "request_id": "0668f263-4bfa-4ab6-a0ea-2170a6cfe674",
+  "billable": true
+ },
+ "data": {
+  "report_json": {
+   "parsed_data": {
+    "B2C-REPORT": {
+     "HEADER-SEGMENT": {
+      "DATE-OF-REQUEST": null,
+      "PREPARED-FOR": "",
+      "PREPARED-FOR-ID": null,
+      "DATE-OF-ISSUE": "",
+      "REPORT-ID": "CCR000000NULLTEST",
+      "BATCH-ID": "",
+      "STATUS": "SUCCESS",
+      "PRODUCT-TYPE": "",
+      "PRODUCT-VER": null
+     },
+     "REQUEST-DATA": {
+      "APPLICANT-SEGMENT": {
+       "FIRST-NAME": "",
+       "MIDDLE-NAME": null,
+       "LAST-NAME": "",
+       "GENDER": null,
+       "APPLICANT-ID": "",
+       "DOB": null,
+       "IDS": [
+        {
+         "TYPE": "",
+         "VALUE": null
+        }
+       ],
+       "ADDRESSES": [
+        {
+         "TYPE": "",
+         "ADDRESSTEXT": null,
+         "CITY": "",
+         "LOCALITY": null,
+         "STATE": "",
+         "PIN": null,
+         "COUNTRY": ""
+        }
+       ],
+       "PHONES": [
+        {
+         "TYPE": null,
+         "VALUE": ""
+        }
+       ],
+       "EMAILS": [
+        {
+         "EMAIL": null
+        }
+       ],
+       "ACCOUNT-NUMBER": ""
+      },
+      "APPLICATION-SEGMENT": {
+       "INQUIRY-UNIQUE-REF-NO": null,
+       "CREDIT-RPT-ID": "",
+       "CREDIT-RPT-TRN-DT-TM": null,
+       "CREDIT-INQ-PURPS-TYPE": "",
+       "CREDIT-INQUIRY-STAGE": null,
+       "CLIENT-CONTRIBUTOR-ID": "",
+       "BRANCH-ID": null,
+       "APPLICATION-ID": "",
+       "ACNT-OPEN-DT": null,
+       "LOAN-AMT": "",
+       "LTV": null,
+       "TERM": "",
+       "LOAN-TYPE": null
+      }
+     },
+     "REPORT-DATA": {
+      "STANDARD-DATA": {
+       "DEMOGS": {
+        "VARIATIONS": [
+         {
+          "TYPE": "",
+          "VARIATION": [
+           {
+            "VALUE": null,
+            "REPORTED-DT": "",
+            "FIRST-REPORTED-DT": null,
+            "LOAN-TYPE-ASSOC": "",
+            "SOURCE-INDICATOR": null
+           },
+           {
+            "VALUE": "",
+            "REPORTED-DT": null,
+            "FIRST-REPORTED-DT": "",
+            "LOAN-TYPE-ASSOC": null,
+            "SOURCE-INDICATOR": ""
+           }
+          ]
+         },
+         {
+          "TYPE": null,
+          "VARIATION": [
+           {
+            "VALUE": "",
+            "REPORTED-DT": null,
+            "FIRST-REPORTED-DT": "",
+            "LOAN-TYPE-ASSOC": null,
+            "SOURCE-INDICATOR": ""
+           }
+          ]
+         },
+         {
+          "TYPE": null,
+          "VARIATION": [
+           {
+            "VALUE": "",
+            "REPORTED-DT": null,
+            "FIRST-REPORTED-DT": "",
+            "LOAN-TYPE-ASSOC": null,
+            "SOURCE-INDICATOR": ""
+           }
+          ]
+         },
+         {
+          "TYPE": null,
+          "VARIATION": [
+           {
+            "VALUE": "",
+            "REPORTED-DT": null,
+            "FIRST-REPORTED-DT": "",
+            "LOAN-TYPE-ASSOC": null,
+            "SOURCE-INDICATOR": ""
+           },
+           {
+            "VALUE": null,
+            "REPORTED-DT": "",
+            "FIRST-REPORTED-DT": null,
+            "LOAN-TYPE-ASSOC": "",
+            "SOURCE-INDICATOR": null
+           },
+           {
+            "VALUE": "",
+            "REPORTED-DT": null,
+            "FIRST-REPORTED-DT": "",
+            "LOAN-TYPE-ASSOC": null,
+            "SOURCE-INDICATOR": ""
+           },
+           {
+            "VALUE": null,
+            "REPORTED-DT": "",
+            "FIRST-REPORTED-DT": null,
+            "LOAN-TYPE-ASSOC": "",
+            "SOURCE-INDICATOR": null
+           },
+           {
+            "VALUE": "",
+            "REPORTED-DT": null,
+            "FIRST-REPORTED-DT": "",
+            "LOAN-TYPE-ASSOC": null,
+            "SOURCE-INDICATOR": ""
+           }
+          ]
+         },
+         {
+          "TYPE": null,
+          "VARIATION": [
+           {
+            "VALUE": "",
+            "REPORTED-DT": null,
+            "FIRST-REPORTED-DT": "",
+            "LOAN-TYPE-ASSOC": null,
+            "SOURCE-INDICATOR": ""
+           }
+          ]
+         },
+         {
+          "TYPE": null,
+          "VARIATION": [
+           {
+            "VALUE": "",
+            "REPORTED-DT": null,
+            "FIRST-REPORTED-DT": "",
+            "LOAN-TYPE-ASSOC": null,
+            "SOURCE-INDICATOR": ""
+           }
+          ]
+         }
+        ]
+       },
+       "EMPLOYMENT-DETAILS": {
+        "EMPLOYMENT-DETAIL": null
+       },
+       "TRADELINES": [
+        {
+         "ACCT-NUMBER": null,
+         "CREDIT-GRANTOR": "",
+         "CREDIT-GRANTOR-GROUP": null,
+         "CREDIT-GRANTOR-TYPE": "",
+         "ACCT-TYPE": null,
+         "REPORTED-DT": "",
+         "OWNERSHIP-TYPE": null,
+         "ACCOUNT-STATUS": "",
+         "CLOSED-DT": null,
+         "DISBURSED-AMT": "",
+         "DISBURSED-DT": null,
+         "INSTALLMENT-AMT": "",
+         "CREDIT-LIMIT": null,
+         "CASH-LIMIT": "",
+         "CURRENT-BAL": null,
+         "INSTALLMENT-FREQUENCY": "",
+         "ORIGINAL-TERM": null,
+         "TERM-TO-MATURITY": "",
+         "REPAYMENT-TENURE": null,
+         "INTEREST-RATE": "",
+         "ACTUAL-PAYMENT": null,
+         "LAST-PAYMENT-DT": "",
+         "OVERDUE-AMT": null,
+         "WRITE-OFF-AMT": "",
+         "PRINCIPAL-WRITE-OFF-AMT": null,
+         "SETTLEMENT-AMT": "",
+         "OBLIGATION": null,
+         "HISTORY": null,
+         "ACCOUNT-REMARKS": "",
+         "SECURITY-STATUS": null,
+         "ACCT-IN-DISPUTE": "",
+         "SUIT-FILED-WILFUL-DEFAULT-STATUS": null,
+         "WRITTEN-OFF-SETTLED-STATUS": "",
+         "WRITE-OFF-DT": null,
+         "SECURITY-DETAILS": [
+          {
+           "SECURITY-TYPE": "",
+           "OWNER-NAME": null,
+           "SECURITY-VALUATION": "",
+           "DATE-OF-VALUATION": null,
+           "SECURITY-CHARGE": "",
+           "PROPERTY-ADDRESS": null,
+           "AUTOMOBILE-TYPE": "",
+           "YEAR-OF-MANUFACTURING": null,
+           "REGISTRATION-NUMBER": "",
+           "ENGINE-NUMBER": null,
+           "CHASSIE-NUMBER": ""
+          }
+         ],
+         "LINKED-ACCOUNTS": [],
+         "SUIT-FILED-DT": null,
+         "LAST-PAID-AMOUNT": "",
+         "OCCUPATION": null,
+         "INCOME-FREQUENCY": "",
+         "INCOME-AMOUNT": null
+        },
+        {
+         "ACCT-NUMBER": "",
+         "CREDIT-GRANTOR": null,
+         "CREDIT-GRANTOR-GROUP": "",
+         "CREDIT-GRANTOR-TYPE": null,
+         "ACCT-TYPE": "",
+         "REPORTED-DT": null,
+         "OWNERSHIP-TYPE": "",
+         "ACCOUNT-STATUS": null,
+         "CLOSED-DT": "",
+         "DISBURSED-AMT": null,
+         "DISBURSED-DT": "",
+         "INSTALLMENT-AMT": null,
+         "CREDIT-LIMIT": "",
+         "CASH-LIMIT": null,
+         "CURRENT-BAL": "",
+         "INSTALLMENT-FREQUENCY": null,
+         "ORIGINAL-TERM": "",
+         "TERM-TO-MATURITY": null,
+         "REPAYMENT-TENURE": "",
+         "INTEREST-RATE": null,
+         "ACTUAL-PAYMENT": "",
+         "LAST-PAYMENT-DT": null,
+         "OVERDUE-AMT": "",
+         "WRITE-OFF-AMT": null,
+         "PRINCIPAL-WRITE-OFF-AMT": "",
+         "SETTLEMENT-AMT": null,
+         "OBLIGATION": "",
+         "HISTORY": [
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          },
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          }
+         ],
+         "ACCOUNT-REMARKS": null,
+         "SECURITY-STATUS": "",
+         "ACCT-IN-DISPUTE": null,
+         "SUIT-FILED-WILFUL-DEFAULT-STATUS": "",
+         "WRITTEN-OFF-SETTLED-STATUS": null,
+         "WRITE-OFF-DT": "",
+         "SECURITY-DETAILS": {
+          "SECURITY-TYPE": null
+         },
+         "LINKED-ACCOUNTS": [],
+         "SUIT-FILED-DT": "",
+         "LAST-PAID-AMOUNT": null,
+         "OCCUPATION": "",
+         "INCOME-FREQUENCY": null,
+         "INCOME-AMOUNT": ""
+        },
+        {
+         "ACCT-NUMBER": null,
+         "CREDIT-GRANTOR": "",
+         "CREDIT-GRANTOR-GROUP": null,
+         "CREDIT-GRANTOR-TYPE": "",
+         "ACCT-TYPE": null,
+         "REPORTED-DT": "",
+         "OWNERSHIP-TYPE": null,
+         "ACCOUNT-STATUS": "",
+         "CLOSED-DT": null,
+         "DISBURSED-AMT": "",
+         "DISBURSED-DT": null,
+         "INSTALLMENT-AMT": "",
+         "CREDIT-LIMIT": null,
+         "CASH-LIMIT": "",
+         "CURRENT-BAL": null,
+         "INSTALLMENT-FREQUENCY": "",
+         "ORIGINAL-TERM": null,
+         "TERM-TO-MATURITY": "",
+         "REPAYMENT-TENURE": null,
+         "INTEREST-RATE": "",
+         "ACTUAL-PAYMENT": null,
+         "LAST-PAYMENT-DT": "",
+         "OVERDUE-AMT": null,
+         "WRITE-OFF-AMT": "",
+         "PRINCIPAL-WRITE-OFF-AMT": null,
+         "SETTLEMENT-AMT": "",
+         "OBLIGATION": null,
+         "HISTORY": [
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          },
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          },
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          }
+         ],
+         "ACCOUNT-REMARKS": "",
+         "SECURITY-STATUS": null,
+         "ACCT-IN-DISPUTE": "",
+         "SUIT-FILED-WILFUL-DEFAULT-STATUS": null,
+         "WRITTEN-OFF-SETTLED-STATUS": "",
+         "WRITE-OFF-DT": null,
+         "SECURITY-DETAILS": [
+          {
+           "SECURITY-TYPE": "",
+           "OWNER-NAME": null,
+           "SECURITY-VALUATION": "",
+           "DATE-OF-VALUATION": null,
+           "SECURITY-CHARGE": "",
+           "PROPERTY-ADDRESS": null,
+           "AUTOMOBILE-TYPE": "",
+           "YEAR-OF-MANUFACTURING": null,
+           "REGISTRATION-NUMBER": "",
+           "ENGINE-NUMBER": null,
+           "CHASSIE-NUMBER": ""
+          }
+         ],
+         "LINKED-ACCOUNTS": [],
+         "SUIT-FILED-DT": null,
+         "LAST-PAID-AMOUNT": "",
+         "OCCUPATION": null,
+         "INCOME-FREQUENCY": "",
+         "INCOME-AMOUNT": null
+        },
+        {
+         "ACCT-NUMBER": "",
+         "CREDIT-GRANTOR": null,
+         "CREDIT-GRANTOR-GROUP": "",
+         "CREDIT-GRANTOR-TYPE": null,
+         "ACCT-TYPE": "",
+         "REPORTED-DT": null,
+         "OWNERSHIP-TYPE": "",
+         "ACCOUNT-STATUS": null,
+         "CLOSED-DT": "",
+         "DISBURSED-AMT": null,
+         "DISBURSED-DT": "",
+         "INSTALLMENT-AMT": null,
+         "CREDIT-LIMIT": "",
+         "CASH-LIMIT": null,
+         "CURRENT-BAL": "",
+         "INSTALLMENT-FREQUENCY": null,
+         "ORIGINAL-TERM": "",
+         "TERM-TO-MATURITY": null,
+         "REPAYMENT-TENURE": "",
+         "INTEREST-RATE": null,
+         "ACTUAL-PAYMENT": "",
+         "LAST-PAYMENT-DT": null,
+         "OVERDUE-AMT": "",
+         "WRITE-OFF-AMT": null,
+         "PRINCIPAL-WRITE-OFF-AMT": "",
+         "SETTLEMENT-AMT": null,
+         "OBLIGATION": "",
+         "HISTORY": [
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          },
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          }
+         ],
+         "ACCOUNT-REMARKS": null,
+         "SECURITY-STATUS": "",
+         "ACCT-IN-DISPUTE": null,
+         "SUIT-FILED-WILFUL-DEFAULT-STATUS": "",
+         "WRITTEN-OFF-SETTLED-STATUS": null,
+         "WRITE-OFF-DT": "",
+         "SECURITY-DETAILS": [
+          {
+           "SECURITY-TYPE": null,
+           "OWNER-NAME": "",
+           "SECURITY-VALUATION": null,
+           "DATE-OF-VALUATION": "",
+           "SECURITY-CHARGE": null,
+           "PROPERTY-ADDRESS": "",
+           "AUTOMOBILE-TYPE": null,
+           "YEAR-OF-MANUFACTURING": "",
+           "REGISTRATION-NUMBER": null,
+           "ENGINE-NUMBER": "",
+           "CHASSIE-NUMBER": null
+          }
+         ],
+         "LINKED-ACCOUNTS": [],
+         "SUIT-FILED-DT": "",
+         "LAST-PAID-AMOUNT": null,
+         "OCCUPATION": "",
+         "INCOME-FREQUENCY": null,
+         "INCOME-AMOUNT": ""
+        },
+        {
+         "ACCT-NUMBER": null,
+         "CREDIT-GRANTOR": "",
+         "CREDIT-GRANTOR-GROUP": null,
+         "CREDIT-GRANTOR-TYPE": "",
+         "ACCT-TYPE": null,
+         "REPORTED-DT": "",
+         "OWNERSHIP-TYPE": null,
+         "ACCOUNT-STATUS": "",
+         "CLOSED-DT": null,
+         "DISBURSED-AMT": "",
+         "DISBURSED-DT": null,
+         "INSTALLMENT-AMT": "",
+         "CREDIT-LIMIT": null,
+         "CASH-LIMIT": "",
+         "CURRENT-BAL": null,
+         "INSTALLMENT-FREQUENCY": "",
+         "ORIGINAL-TERM": null,
+         "TERM-TO-MATURITY": "",
+         "REPAYMENT-TENURE": null,
+         "INTEREST-RATE": "",
+         "ACTUAL-PAYMENT": null,
+         "LAST-PAYMENT-DT": "",
+         "OVERDUE-AMT": null,
+         "WRITE-OFF-AMT": "",
+         "PRINCIPAL-WRITE-OFF-AMT": null,
+         "SETTLEMENT-AMT": "",
+         "OBLIGATION": null,
+         "HISTORY": [
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          },
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          },
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          }
+         ],
+         "ACCOUNT-REMARKS": "",
+         "SECURITY-STATUS": null,
+         "ACCT-IN-DISPUTE": "",
+         "SUIT-FILED-WILFUL-DEFAULT-STATUS": null,
+         "WRITTEN-OFF-SETTLED-STATUS": "",
+         "WRITE-OFF-DT": null,
+         "SECURITY-DETAILS": [
+          {
+           "SECURITY-TYPE": "",
+           "OWNER-NAME": null,
+           "SECURITY-VALUATION": "",
+           "DATE-OF-VALUATION": null,
+           "SECURITY-CHARGE": "",
+           "PROPERTY-ADDRESS": null,
+           "AUTOMOBILE-TYPE": "",
+           "YEAR-OF-MANUFACTURING": null,
+           "REGISTRATION-NUMBER": "",
+           "ENGINE-NUMBER": null,
+           "CHASSIE-NUMBER": ""
+          }
+         ],
+         "LINKED-ACCOUNTS": [],
+         "SUIT-FILED-DT": null,
+         "LAST-PAID-AMOUNT": "",
+         "OCCUPATION": null,
+         "INCOME-FREQUENCY": "",
+         "INCOME-AMOUNT": null
+        },
+        {
+         "ACCT-NUMBER": "",
+         "CREDIT-GRANTOR": null,
+         "CREDIT-GRANTOR-GROUP": "",
+         "CREDIT-GRANTOR-TYPE": null,
+         "ACCT-TYPE": "",
+         "REPORTED-DT": null,
+         "OWNERSHIP-TYPE": "",
+         "ACCOUNT-STATUS": null,
+         "CLOSED-DT": "",
+         "DISBURSED-AMT": null,
+         "DISBURSED-DT": "",
+         "INSTALLMENT-AMT": null,
+         "CREDIT-LIMIT": "",
+         "CASH-LIMIT": null,
+         "CURRENT-BAL": "",
+         "INSTALLMENT-FREQUENCY": null,
+         "ORIGINAL-TERM": "",
+         "TERM-TO-MATURITY": null,
+         "REPAYMENT-TENURE": "",
+         "INTEREST-RATE": null,
+         "ACTUAL-PAYMENT": "",
+         "LAST-PAYMENT-DT": null,
+         "OVERDUE-AMT": "",
+         "WRITE-OFF-AMT": null,
+         "PRINCIPAL-WRITE-OFF-AMT": "",
+         "SETTLEMENT-AMT": null,
+         "OBLIGATION": "",
+         "HISTORY": [
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          },
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          }
+         ],
+         "ACCOUNT-REMARKS": null,
+         "SECURITY-STATUS": "",
+         "ACCT-IN-DISPUTE": null,
+         "SUIT-FILED-WILFUL-DEFAULT-STATUS": "",
+         "WRITTEN-OFF-SETTLED-STATUS": null,
+         "WRITE-OFF-DT": "",
+         "SECURITY-DETAILS": [
+          {
+           "SECURITY-TYPE": null,
+           "OWNER-NAME": "",
+           "SECURITY-VALUATION": null,
+           "DATE-OF-VALUATION": "",
+           "SECURITY-CHARGE": null,
+           "PROPERTY-ADDRESS": "",
+           "AUTOMOBILE-TYPE": null,
+           "YEAR-OF-MANUFACTURING": "",
+           "REGISTRATION-NUMBER": null,
+           "ENGINE-NUMBER": "",
+           "CHASSIE-NUMBER": null
+          }
+         ],
+         "LINKED-ACCOUNTS": [],
+         "SUIT-FILED-DT": "",
+         "LAST-PAID-AMOUNT": null,
+         "OCCUPATION": "",
+         "INCOME-FREQUENCY": null,
+         "INCOME-AMOUNT": ""
+        },
+        {
+         "ACCT-NUMBER": null,
+         "CREDIT-GRANTOR": "",
+         "CREDIT-GRANTOR-GROUP": null,
+         "CREDIT-GRANTOR-TYPE": "",
+         "ACCT-TYPE": null,
+         "REPORTED-DT": "",
+         "OWNERSHIP-TYPE": null,
+         "ACCOUNT-STATUS": "",
+         "CLOSED-DT": null,
+         "DISBURSED-AMT": "",
+         "DISBURSED-DT": null,
+         "INSTALLMENT-AMT": "",
+         "CREDIT-LIMIT": null,
+         "CASH-LIMIT": "",
+         "CURRENT-BAL": null,
+         "INSTALLMENT-FREQUENCY": "",
+         "ORIGINAL-TERM": null,
+         "TERM-TO-MATURITY": "",
+         "REPAYMENT-TENURE": null,
+         "INTEREST-RATE": "",
+         "ACTUAL-PAYMENT": null,
+         "LAST-PAYMENT-DT": "",
+         "OVERDUE-AMT": null,
+         "WRITE-OFF-AMT": "",
+         "PRINCIPAL-WRITE-OFF-AMT": null,
+         "SETTLEMENT-AMT": "",
+         "OBLIGATION": null,
+         "HISTORY": [
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          },
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          },
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          }
+         ],
+         "ACCOUNT-REMARKS": "",
+         "SECURITY-STATUS": null,
+         "ACCT-IN-DISPUTE": "",
+         "SUIT-FILED-WILFUL-DEFAULT-STATUS": null,
+         "WRITTEN-OFF-SETTLED-STATUS": "",
+         "WRITE-OFF-DT": null,
+         "SECURITY-DETAILS": [
+          {
+           "SECURITY-TYPE": "",
+           "OWNER-NAME": null,
+           "SECURITY-VALUATION": "",
+           "DATE-OF-VALUATION": null,
+           "SECURITY-CHARGE": "",
+           "PROPERTY-ADDRESS": null,
+           "AUTOMOBILE-TYPE": "",
+           "YEAR-OF-MANUFACTURING": null,
+           "REGISTRATION-NUMBER": "",
+           "ENGINE-NUMBER": null,
+           "CHASSIE-NUMBER": ""
+          }
+         ],
+         "LINKED-ACCOUNTS": [],
+         "SUIT-FILED-DT": null,
+         "LAST-PAID-AMOUNT": "",
+         "OCCUPATION": null,
+         "INCOME-FREQUENCY": "",
+         "INCOME-AMOUNT": null
+        },
+        {
+         "ACCT-NUMBER": "",
+         "CREDIT-GRANTOR": null,
+         "CREDIT-GRANTOR-GROUP": "",
+         "CREDIT-GRANTOR-TYPE": null,
+         "ACCT-TYPE": "",
+         "REPORTED-DT": null,
+         "OWNERSHIP-TYPE": "",
+         "ACCOUNT-STATUS": null,
+         "CLOSED-DT": "",
+         "DISBURSED-AMT": null,
+         "DISBURSED-DT": "",
+         "INSTALLMENT-AMT": null,
+         "CREDIT-LIMIT": "",
+         "CASH-LIMIT": null,
+         "CURRENT-BAL": "",
+         "INSTALLMENT-FREQUENCY": null,
+         "ORIGINAL-TERM": "",
+         "TERM-TO-MATURITY": null,
+         "REPAYMENT-TENURE": "",
+         "INTEREST-RATE": null,
+         "ACTUAL-PAYMENT": "",
+         "LAST-PAYMENT-DT": null,
+         "OVERDUE-AMT": "",
+         "WRITE-OFF-AMT": null,
+         "PRINCIPAL-WRITE-OFF-AMT": "",
+         "SETTLEMENT-AMT": null,
+         "OBLIGATION": "",
+         "HISTORY": [
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          },
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          }
+         ],
+         "ACCOUNT-REMARKS": null,
+         "SECURITY-STATUS": "",
+         "ACCT-IN-DISPUTE": null,
+         "SUIT-FILED-WILFUL-DEFAULT-STATUS": "",
+         "WRITTEN-OFF-SETTLED-STATUS": null,
+         "WRITE-OFF-DT": "",
+         "SECURITY-DETAILS": [
+          {
+           "SECURITY-TYPE": null,
+           "OWNER-NAME": "",
+           "SECURITY-VALUATION": null,
+           "DATE-OF-VALUATION": "",
+           "SECURITY-CHARGE": null,
+           "PROPERTY-ADDRESS": "",
+           "AUTOMOBILE-TYPE": null,
+           "YEAR-OF-MANUFACTURING": "",
+           "REGISTRATION-NUMBER": null,
+           "ENGINE-NUMBER": "",
+           "CHASSIE-NUMBER": null
+          }
+         ],
+         "LINKED-ACCOUNTS": [],
+         "SUIT-FILED-DT": "",
+         "LAST-PAID-AMOUNT": null,
+         "OCCUPATION": "",
+         "INCOME-FREQUENCY": null,
+         "INCOME-AMOUNT": ""
+        },
+        {
+         "ACCT-NUMBER": null,
+         "CREDIT-GRANTOR": "",
+         "CREDIT-GRANTOR-GROUP": null,
+         "CREDIT-GRANTOR-TYPE": "",
+         "ACCT-TYPE": null,
+         "REPORTED-DT": "",
+         "OWNERSHIP-TYPE": null,
+         "ACCOUNT-STATUS": "",
+         "CLOSED-DT": null,
+         "DISBURSED-AMT": "",
+         "DISBURSED-DT": null,
+         "INSTALLMENT-AMT": "",
+         "CREDIT-LIMIT": null,
+         "CASH-LIMIT": "",
+         "CURRENT-BAL": null,
+         "INSTALLMENT-FREQUENCY": "",
+         "ORIGINAL-TERM": null,
+         "TERM-TO-MATURITY": "",
+         "REPAYMENT-TENURE": null,
+         "INTEREST-RATE": "",
+         "ACTUAL-PAYMENT": null,
+         "LAST-PAYMENT-DT": "",
+         "OVERDUE-AMT": null,
+         "WRITE-OFF-AMT": "",
+         "PRINCIPAL-WRITE-OFF-AMT": null,
+         "SETTLEMENT-AMT": "",
+         "OBLIGATION": null,
+         "HISTORY": [
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          },
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          },
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          }
+         ],
+         "ACCOUNT-REMARKS": "",
+         "SECURITY-STATUS": null,
+         "ACCT-IN-DISPUTE": "",
+         "SUIT-FILED-WILFUL-DEFAULT-STATUS": null,
+         "WRITTEN-OFF-SETTLED-STATUS": "",
+         "WRITE-OFF-DT": null,
+         "SECURITY-DETAILS": [
+          {
+           "SECURITY-TYPE": "",
+           "OWNER-NAME": null,
+           "SECURITY-VALUATION": "",
+           "DATE-OF-VALUATION": null,
+           "SECURITY-CHARGE": "",
+           "PROPERTY-ADDRESS": null,
+           "AUTOMOBILE-TYPE": "",
+           "YEAR-OF-MANUFACTURING": null,
+           "REGISTRATION-NUMBER": "",
+           "ENGINE-NUMBER": null,
+           "CHASSIE-NUMBER": ""
+          }
+         ],
+         "LINKED-ACCOUNTS": [],
+         "SUIT-FILED-DT": null,
+         "LAST-PAID-AMOUNT": "",
+         "OCCUPATION": null,
+         "INCOME-FREQUENCY": "",
+         "INCOME-AMOUNT": null
+        },
+        {
+         "ACCT-NUMBER": "",
+         "CREDIT-GRANTOR": null,
+         "CREDIT-GRANTOR-GROUP": "",
+         "CREDIT-GRANTOR-TYPE": null,
+         "ACCT-TYPE": "",
+         "REPORTED-DT": null,
+         "OWNERSHIP-TYPE": "",
+         "ACCOUNT-STATUS": null,
+         "CLOSED-DT": "",
+         "DISBURSED-AMT": null,
+         "DISBURSED-DT": "",
+         "INSTALLMENT-AMT": null,
+         "CREDIT-LIMIT": "",
+         "CASH-LIMIT": null,
+         "CURRENT-BAL": "",
+         "INSTALLMENT-FREQUENCY": null,
+         "ORIGINAL-TERM": "",
+         "TERM-TO-MATURITY": null,
+         "REPAYMENT-TENURE": "",
+         "INTEREST-RATE": null,
+         "ACTUAL-PAYMENT": "",
+         "LAST-PAYMENT-DT": null,
+         "OVERDUE-AMT": "",
+         "WRITE-OFF-AMT": null,
+         "PRINCIPAL-WRITE-OFF-AMT": "",
+         "SETTLEMENT-AMT": null,
+         "OBLIGATION": "",
+         "HISTORY": [
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          },
+          {
+           "NAME": null,
+           "DATES": "",
+           "VALUES": null
+          },
+          {
+           "NAME": "",
+           "DATES": null,
+           "VALUES": ""
+          }
+         ],
+         "ACCOUNT-REMARKS": null,
+         "SECURITY-STATUS": "",
+         "ACCT-IN-DISPUTE": null,
+         "SUIT-FILED-WILFUL-DEFAULT-STATUS": "",
+         "WRITTEN-OFF-SETTLED-STATUS": null,
+         "WRITE-OFF-DT": "",
+         "SECURITY-DETAILS": [
+          {
+           "SECURITY-TYPE": null,
+           "OWNER-NAME": "",
+           "SECURITY-VALUATION": null,
+           "DATE-OF-VALUATION": "",
+           "SECURITY-CHARGE": null,
+           "PROPERTY-ADDRESS": "",
+           "AUTOMOBILE-TYPE": null,
+           "YEAR-OF-MANUFACTURING": "",
+           "REGISTRATION-NUMBER": null,
+           "ENGINE-NUMBER": "",
+           "CHASSIE-NUMBER": null
+          },
+          {
+           "SECURITY-TYPE": "",
+           "OWNER-NAME": null,
+           "SECURITY-VALUATION": "",
+           "DATE-OF-VALUATION": null,
+           "SECURITY-CHARGE": "",
+           "PROPERTY-ADDRESS": null,
+           "AUTOMOBILE-TYPE": "",
+           "YEAR-OF-MANUFACTURING": null,
+           "REGISTRATION-NUMBER": "",
+           "ENGINE-NUMBER": null,
+           "CHASSIE-NUMBER": ""
+          }
+         ],
+         "LINKED-ACCOUNTS": [],
+         "SUIT-FILED-DT": null,
+         "LAST-PAID-AMOUNT": "",
+         "OCCUPATION": null,
+         "INCOME-FREQUENCY": "",
+         "INCOME-AMOUNT": null
+        }
+       ],
+       "INQUIRY-HISTORY": null,
+       "SCORE": null
+      },
+      "REQUESTED-SERVICES": [],
+      "ACCOUNTS-SUMMARY": {
+       "PRIMARY-ACCOUNTS-SUMMARY": {
+        "NUMBER-OF-ACCOUNTS": "",
+        "ACTIVE-ACCOUNTS": null,
+        "OVERDUE-ACCOUNTS": "",
+        "SECURED-ACCOUNTS": null,
+        "UNSECURED-ACCOUNTS": "",
+        "UNTAGGED-ACCOUNTS": null,
+        "TOTAL-CURRENT-BALANCE": "",
+        "CURRENT-BALANCE-SECURED": null,
+        "CURRENT-BALANCE-UNSECURED": "",
+        "TOTAL-SANCTIONED-AMT": null,
+        "TOTAL-DISBURSED-AMT": "",
+        "TOTAL-AMT-OVERDUE": null
+       },
+       "SECONDARY-ACCOUNTS-SUMMARY": {
+        "NUMBER-OF-ACCOUNTS": "",
+        "ACTIVE-ACCOUNTS": null,
+        "OVERDUE-ACCOUNTS": "",
+        "SECURED-ACCOUNTS": null,
+        "UNSECURED-ACCOUNTS": "",
+        "UNTAGGED-ACCOUNTS": null,
+        "TOTAL-CURRENT-BALANCE": "",
+        "TOTAL-SANCTIONED-AMT": null,
+        "TOTAL-DISBURSED-AMT": "",
+        "TOTAL-AMT-OVERDUE": null
+       },
+       "MFI-GROUP-ACCOUNTS-SUMMARY": null,
+       "ADDITIONAL-SUMMARY": [
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        }
+       ],
+       "PERFORM-ATTRIBUTES": [
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        },
+        {
+         "ATTR-NAME": null,
+         "ATTR-VALUE": ""
+        }
+       ]
+      },
+      "TRENDS": null,
+      "ALERTS": []
+     }
+    }
+   }
+  },
+  "report_pdf_url": null
+ }
+}

@@ -1,0 +1,5 @@
+{% from "_macros.html" import bar, kv_grid %}
+<section class="section keep">
+  {{ bar("Inquiry Input Information") }}
+  {{ kv_grid(r.inquiry.rows, r.inquiry.full_rows) }}
+</section>

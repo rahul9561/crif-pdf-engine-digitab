@@ -1,0 +1,25 @@
+{% from "_macros.html" import kv_grid %}
+<table class="report-head">
+  <tr>
+    <td class="logo"><img src="img/logo-crif.svg" alt="CRIF"></td>
+    <td>
+      <h1>Credit Information&trade; Report</h1>
+      {% if r.name %}<div class="for">For {{ r.name }}</div>{% endif %}
+    </td>
+  </tr>
+</table>
+<div class="head-rule"></div>
+<table class="kv kv6">
+  <colgroup>{% for _ in range(6) %}<col>{% endfor %}</colgroup>
+  <tbody>
+  {% for row in r.header_rows %}
+    <tr>
+    {% for item in row %}
+      <td class="label">{{ item.label }}</td>
+      <td class="value">{{ item.value }}</td>
+    {% endfor %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+<div class="head-rule-strong"></div>

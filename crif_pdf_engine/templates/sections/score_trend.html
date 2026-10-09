@@ -1,0 +1,15 @@
+{% from "_macros.html" import bar %}
+{% if r.trend %}
+<section class="section keep">
+  {{ bar("Score Trend") }}
+  <table class="grid center w-trend">
+    <colgroup><col>{% for _ in r.trend.labels %}<col>{% endfor %}</colgroup>
+    <thead>
+      <tr><th>Retro Date</th>{% for label in r.trend.labels %}<th>{{ label }}</th>{% endfor %}</tr>
+    </thead>
+    <tbody>
+      <tr><td>Score</td>{% for v in r.trend.scores %}<td>{{ v }}</td>{% endfor %}</tr>
+    </tbody>
+  </table>
+</section>
+{% endif %}

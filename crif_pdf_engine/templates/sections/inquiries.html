@@ -1,0 +1,7 @@
+{% from "_macros.html" import bar, data_table %}
+{% if r.inquiry_rows %}
+<section class="section">
+  {{ bar("Inquiry History") }}
+  {{ data_table(["Lender", "Inquiry Date", "Purpose", "Ownership", "Amount", "Remark"], r.inquiry_rows) }}
+</section>
+{% endif %}

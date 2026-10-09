@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ r.title }}</title>
+  <meta name="author" content="CRIF High Mark">
+  <meta name="generator" content="crif-pdf-engine">
+  <link rel="stylesheet" href="css/report.css">
+</head>
+<body>
+  <div class="side-footer">
+    <div>Generated: {{ r.generated_at }}</div>
+    <div class="page-no"></div>
+  </div>
+
+  {% include "sections/report_header.html" %}
+  {% include "sections/inquiry_input.html" %}
+  {% include "sections/score.html" %}
+  {% include "sections/score_trend.html" %}
+  {% include "sections/account_summary.html" %}
+  {% include "sections/mfi_summary.html" %}
+  {% include "sections/additional_summary.html" %}
+  {% include "sections/perform_attributes.html" %}
+  {% include "sections/personal_info_variations.html" %}
+  {% include "sections/employment.html" %}
+  {% include "sections/account_details.html" %}
+  {% include "sections/inquiries.html" %}
+  {% include "sections/appendix.html" %}
+</body>
+</html>

@@ -1,0 +1,7 @@
+{% from "_macros.html" import bar, data_table %}
+{% if r.employment_rows %}
+<section class="section">
+  {{ bar("Employment Details") }}
+  {{ data_table(["Occupation", "First Reported", "Last Reported", "Type", "Source Indicator"], r.employment_rows) }}
+</section>
+{% endif %}

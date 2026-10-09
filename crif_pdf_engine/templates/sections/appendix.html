@@ -1,0 +1,18 @@
+{% from "_macros.html" import bar, data_table %}
+<div class="end-of-report">-END OF REPORT-</div>
+
+<section class="section keep">
+  {{ bar("Appendix") }}
+  {{ data_table(["Section", "Code", "Description"], [
+      ["Account Summary", "Number of Delinquent Accounts", "Indicates number of accounts that the applicant has defaulted on within the last 6 months"],
+      ["Account Information - Credit Grantor", "XXXX", "Name of grantor undisclosed as credit grantor is different from inquiring institution"],
+      ["Payment History / Asset Classification", "STD", "Account Reported as STANDARD Asset"],
+      ["Payment History / Asset Classification", "XXX", "Data not reported by institution"],
+  ], extra_class="plain w-appendix") }}
+</section>
+
+<div class="disclaimer">
+  <p>Disclaimer: This document is prepared based on the data submitted by member institutions of CRIF High Mark Credit Information Services Private Limited (CRIF High Mark). No alterations are made to the data submitted by member institutions and the same is up to date as well as accurate to the best of its knowledge. By using data contained in this document, the user acknowledges that CRIF High Mark is not responsible for errors/omissions resulting from submission of erroneous data from Members to CRIF High Mark. This document may not be used or disclosed to others, except with the written permission of CRIF High Mark. Any paper copy of this document will be considered uncontrolled. If you are not the intended recipient, you are not authorized to read, print, retain, copy, disseminate, distribute or use this information or any part thereof.</p>
+  <p>PERFORM score provided in this document is joint work of CRIF SPA (Italy) and CRIF High Mark (India). For any assistance on this report, reach out to us at: customerservice@crifhighmark.com</p>
+  <p class="copyright">Copyrights reserved (c) 2021 CRIF High Mark Credit Information Services Pvt Ltd</p>
+</div>

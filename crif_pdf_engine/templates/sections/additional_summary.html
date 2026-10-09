@@ -1,0 +1,7 @@
+{% from "_macros.html" import bar, kv_grid %}
+{% if r.additional_rows %}
+<section class="section keep">
+  {{ bar("Additional Summary") }}
+  {{ kv_grid(r.additional_rows) }}
+</section>
+{% endif %}

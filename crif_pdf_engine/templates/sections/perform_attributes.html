@@ -1,0 +1,7 @@
+{% from "_macros.html" import bar, kv_grid %}
+{% if r.perform_rows %}
+<section class="section keep">
+  {{ bar("Perform Attributes") }}
+  {{ kv_grid(r.perform_rows) }}
+</section>
+{% endif %}

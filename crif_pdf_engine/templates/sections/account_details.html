@@ -1,0 +1,40 @@
+{% from "_macros.html" import bar, history_grid %}
+{% for a in r.accounts %}
+<section class="account">
+  {# Bar + strip + status + detail grid never split (fits easily on one page). #}
+  <div class="keep">
+    {{ bar("Account Information") }}
+    <div class="strip">
+      {%- for item in a.strip %}<span>{{ item.label }} {{ item.value }}</span> {% endfor -%}
+    </div>
+    <div class="acct-status">Account Status: {{ a.status }}</div>
+    <table class="kv kv6">
+      <colgroup>{% for _ in range(6) %}<col>{% endfor %}</colgroup>
+      <tbody>
+      {% for row in a.grid %}
+        <tr>
+        {% for item in row %}
+          <td class="label">{{ item.label }}</td>
+          <td class="value">{{ item.value }}</td>
+        {% endfor %}
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    <div class="acct-end"></div>
+  </div>
+
+  {% for h in a.histories %}
+  <div class="history">
+    <h3 class="subhead">{{ h.title }}</h3>
+    <div class="caption">{{ h.caption }}</div>
+    {{ history_grid(r.month_headers, h.rows) }}
+  </div>
+  {% endfor %}
+</section>
+{% else %}
+<section class="section keep">
+  {{ bar("Account Information") }}
+  <table class="grid"><tbody><tr><td class="empty-row">No records found</td></tr></tbody></table>
+</section>
+{% endfor %}

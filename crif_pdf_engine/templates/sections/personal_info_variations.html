@@ -1,0 +1,22 @@
+{% from "_macros.html" import bar, data_table %}
+{% set v = r.variations %}
+{% set var_cols = ["First Reported", "Last Reported", "Type", "Source Indicator"] %}
+{% if v.tables %}
+<section class="section">
+  {{ bar("Personal Info Variations") }}
+  <div class="tip">Tip: These are applicant's personal information variations as contributed by various financial institutions.</div>
+  {% for t in v.tables %}
+  <div class="variation">
+    <h3 class="subhead">{{ t.title }}</h3>
+    {{ data_table([t.first_col] + var_cols, t.rows) }}
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if v.address_rows %}
+<section class="section">
+  {{ bar("Address Variations") }}
+  {{ data_table(["Address"] + var_cols, v.address_rows) }}
+</section>
+{% endif %}

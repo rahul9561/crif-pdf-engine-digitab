@@ -1,0 +1,13 @@
+{% for title, values in [("Primary Account Summary", r.primary_summary),
+                         ("Secondary Account Summary", r.secondary_summary)] %}
+<section class="section keep">
+  <div class="bar">{{ title }}</div>
+  <div class="tip">Tip: Current Balance &amp; Disbursed Amount is considered ONLY for ACTIVE accounts.</div>
+  <div class="tip">Tip: All amounts are in INR.</div>
+  <table class="grid center summary">
+    <colgroup>{% for _ in r.summary_headers %}<col>{% endfor %}</colgroup>
+    <thead><tr>{% for h in r.summary_headers %}<th>{{ h }}</th>{% endfor %}</tr></thead>
+    <tbody><tr>{% for v in values %}<td>{{ v }}</td>{% endfor %}</tr></tbody>
+  </table>
+</section>
+{% endfor %}

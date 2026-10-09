@@ -1,0 +1,55 @@
+{# Display-only building blocks. No formatting logic here — values arrive ready. #}
+
+{% macro bar(title) -%}
+<div class="bar">{{ title }}</div>
+{%- endmacro %}
+
+{# Label/value grid. `rows` = list of rows, each a list of {label, value}. #}
+{% macro kv_grid(rows, full_rows=[]) -%}
+<table class="kv">
+  <tbody>
+  {% for row in rows %}
+    <tr>
+    {% for item in row %}
+      <td class="label">{{ item.label }}</td>
+      <td class="value">{{ item.value }}</td>
+    {% endfor %}
+    </tr>
+  {% endfor %}
+  {% for item in full_rows %}
+    <tr>
+      <td class="label">{{ item.label }}</td>
+      <td class="value" colspan="{{ (rows[0]|length * 2 - 1) if rows else 3 }}">{{ item.value }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{%- endmacro %}
+
+{# Bordered data table. `rows` = list of lists of strings. #}
+{% macro data_table(headers, rows, empty_text="No records found", extra_class="") -%}
+<table class="grid {{ extra_class }}">
+  <colgroup>{% for _ in headers %}<col>{% endfor %}</colgroup>
+  <thead><tr>{% for h in headers %}<th>{{ h }}</th>{% endfor %}</tr></thead>
+  <tbody>
+  {% for row in rows %}
+    <tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>
+  {% else %}
+    <tr><td class="empty-row" colspan="{{ headers|length }}">{{ empty_text }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{%- endmacro %}
+
+{# Month-wise history grid. `rows` = [{year, cells[12]}]. #}
+{% macro history_grid(month_headers, rows) -%}
+<table class="grid hist">
+  <colgroup><col>{% for _ in month_headers %}<col>{% endfor %}</colgroup>
+  <thead><tr><th>Year</th>{% for m in month_headers %}<th>{{ m }}</th>{% endfor %}</tr></thead>
+  <tbody>
+  {% for row in rows %}
+    <tr><td>{{ row.year }}</td>{% for cell in row.cells %}<td>{{ cell }}</td>{% endfor %}</tr>
+  {% endfor %}
+  </tbody>
+</table>
+{%- endmacro %}

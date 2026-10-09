@@ -1,0 +1,11 @@
+{
+ "success": true,
+ "result_code": 101,
+ "data": {
+  "report_json": {
+   "parsed_data": {
+    "B2C-REPORT": {}
+   }
+  }
+ }
+}
