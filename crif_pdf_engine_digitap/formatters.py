@@ -52,6 +52,15 @@ ID_TYPE_LABELS: dict[str, str] = {
     "ID07": "PAN",
 }
 
+# Gender spellings -> display label. Exact (case-insensitive) matches only, so
+# "female" can never be mistaken for "male"; anything unknown is shown as sent.
+GENDER_LABELS: dict[str, str] = {
+    "male": "Male", "m": "Male",
+    "female": "Female", "f": "Female",
+    "other": "Other", "o": "Other",
+    "transgender": "Transgender", "third gender": "Third Gender",
+}
+
 
 # --------------------------------------------------------------------------- #
 # Basics
@@ -232,6 +241,14 @@ def id_type_label(code: object) -> str | None:
     if text is None:
         return None
     return ID_TYPE_LABELS.get(text.upper(), text)
+
+
+def gender_label(value: object) -> str | None:
+    """``"FEMALE"`` / ``"f"`` -> ``"Female"``; empty -> ``None``; unknown -> as sent."""
+    text = clean(value)
+    if text is None:
+        return None
+    return GENDER_LABELS.get(text.lower(), text)
 
 
 def mask_value(value: object, visible: int = 4, mask_char: str = "X") -> str | None:

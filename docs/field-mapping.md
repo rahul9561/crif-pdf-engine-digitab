@@ -62,7 +62,7 @@
 | PDF field | JSON path | Transform |
 |---|---|---|
 | Name | APPLICANT-SEGMENT name parts | as above |
-| Gender | `APPLICANT-SEGMENT.GENDER` | E |
+| Gender | `gender=` render option if non-blank, else `APPLICANT-SEGMENT.GENDER` | `Male`/`Female`/`Other` (also `M`/`F`/`O`, any case) normalised; unknown values shown as sent; neither → blank |
 | Phone Numbers | `APPLICANT-SEGMENT.PHONES[].VALUE` | joined with `, ` |
 | *(not in ref)* Date of Birth | `APPLICANT-SEGMENT.DOB.DOB-DT` | D. See Q2 |
 | *(not in ref)* PAN / ID | `APPLICANT-SEGMENT.IDS[]`, `ID07`→PAN, `ID01`→Passport, `ID02`→Voter ID, `ID03`→UID/Aadhaar, `ID04`→Others, `ID05`→Ration Card, `ID06`→Driving Licence | See Q2 |

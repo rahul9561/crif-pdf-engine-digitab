@@ -25,10 +25,13 @@ def main(argv: list[str] | None = None) -> int:
                         help="show every perform attribute, not just the default 9")
     parser.add_argument("--empty", default="-",
                         help='placeholder for empty values (default: "-")')
+    parser.add_argument("--gender",
+                        help="applicant gender to print (default: taken from the JSON)")
     parser.add_argument("--version", action="version", version=f"%(prog)s {__version__}")
     args = parser.parse_args(argv)
 
-    overrides = {"empty": args.empty, "mask_account_numbers": args.mask_accounts}
+    overrides = {"empty": args.empty, "mask_account_numbers": args.mask_accounts,
+                 "gender": args.gender}
     if args.all_perform_attributes:
         overrides["perform_attributes"] = "all"
 

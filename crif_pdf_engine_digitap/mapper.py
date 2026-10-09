@@ -192,6 +192,9 @@ class RenderOptions:
     perform_attributes: Sequence[str] | str = field(default=DEFAULT_PERFORM_ATTRIBUTES)
     #: Override the footer timestamp (defaults to "now" in IST).
     generated_at: datetime | None = None
+    #: Applicant gender supplied by the caller. Wins over the JSON's
+    #: ``APPLICANT-SEGMENT.GENDER``; ``None`` / blank falls back to the JSON.
+    gender: str | None = None
 
 
 # --------------------------------------------------------------------------- #
@@ -273,11 +276,17 @@ def _address_text(addr) -> str | None:
     return ", ".join(p for p in [text] + extras if p) or None
 
 
+def resolve_gender(report: B2CReport, options: RenderOptions) -> str | None:
+    """Caller-supplied gender if non-blank, else ``APPLICANT-SEGMENT.GENDER``; never guessed."""
+    return (fmt.gender_label(options.gender)
+            or fmt.gender_label(report.request_data.applicant_segment.gender))
+
+
 def _inquiry_input(report: B2CReport, c: _Ctx) -> dict:
     app = report.request_data.applicant_segment
     pairs: list[tuple[str, str]] = [
         ("Name:", c.show(full_name(report))),
-        ("Gender:", c.show(app.gender)),
+        ("Gender:", resolve_gender(report, c.options) or ""),  # unknown -> blank, never "-"
     ]
     dob = fmt.format_date(app.dob.dob_dt)
     if dob:

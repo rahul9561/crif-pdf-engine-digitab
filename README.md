@@ -111,6 +111,7 @@ render_pdf(
     mask_account_numbers=True,         # 356305002364 -> XXXXXXXX2364 (default False)
     perform_attributes="all",          # or a list of ATTR-NAMEs; default = the 9 shown by CRIF
     generated_at=some_datetime,        # footer timestamp (default: now, IST)
+    gender="Female",                   # wins over the JSON; None/blank -> APPLICANT-SEGMENT.GENDER
 )
 
 try:

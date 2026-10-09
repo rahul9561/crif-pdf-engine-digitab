@@ -27,9 +27,12 @@ from crif_pdf_engine_digitap import CrifReportError, render_pdf, suggested_filen
 # from .models import CreditReport   # your model that stores the Digitap JSON response
 
 
-def _pdf_response(json_data, *, inline: bool = True) -> HttpResponse:
-    """Render and wrap in an HttpResponse with a "<name>_<report id>.pdf" filename."""
-    pdf_bytes = render_pdf(json_data)
+def _pdf_response(json_data, *, inline: bool = True, gender: str | None = None) -> HttpResponse:
+    """Render and wrap in an HttpResponse with a "<name>_<report id>.pdf" filename.
+
+    ``gender`` (optional) overrides the report JSON's gender; blank -> use the JSON.
+    """
+    pdf_bytes = render_pdf(json_data, gender=gender)
     filename = suggested_filename(json_data)  # e.g. CRIF_ANAND_VARDHAN_GOYAL_CCR261006CR581766645.pdf
     response = HttpResponse(pdf_bytes, content_type="application/pdf")
     disposition = "inline" if inline else "attachment"
@@ -40,11 +43,12 @@ def _pdf_response(json_data, *, inline: bool = True) -> HttpResponse:
 @login_required
 @require_GET
 def crif_report_pdf(request: HttpRequest, pk: int) -> HttpResponse:
-    """GET /reports/<pk>/crif.pdf[?download=1] — render a stored report."""
+    """GET /reports/<pk>/crif.pdf[?download=1][&gender=Female] — render a stored report."""
     report = get_object_or_404(CreditReport, pk=pk, owner=request.user)  # noqa: F821
     json_data = report.raw_response  # dict from a JSONField (a JSON string also works)
     try:
-        return _pdf_response(json_data, inline=request.GET.get("download") != "1")
+        return _pdf_response(json_data, inline=request.GET.get("download") != "1",
+                             gender=request.GET.get("gender"))
     except CrifReportError as exc:
         return HttpResponseBadRequest(f"Cannot render CRIF report: {exc}")
 
@@ -52,10 +56,10 @@ def crif_report_pdf(request: HttpRequest, pk: int) -> HttpResponse:
 @login_required
 @require_POST
 def crif_report_pdf_from_request(request: HttpRequest) -> HttpResponse:
-    """POST raw Digitap JSON in the body; returns the PDF as a download."""
+    """POST raw Digitap JSON in the body (optional ?gender=); returns the PDF as a download."""
     try:
         json_data = json.loads(request.body)
-        return _pdf_response(json_data, inline=False)
+        return _pdf_response(json_data, inline=False, gender=request.GET.get("gender"))
     except (ValueError, CrifReportError) as exc:  # json.JSONDecodeError is a ValueError
         return HttpResponseBadRequest(f"Cannot render CRIF report: {exc}")
 
